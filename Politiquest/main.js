@@ -17,12 +17,15 @@ function init()
     grd.addColorStop(0.6, '#ffffff');
     grd.addColorStop(1, '#024E9C');  
 	
+	
+	ctx.strokeStyle = "#black";
     ctx.fillStyle = grd;
-	playButton = ctx.fillRect(400,250,600,100);
+	ctx.strokeRect(400,250,600,100);
+	ctx.fillRect(400,250,600,100);
+	ctx.strokeRect(400,400,600,100);
 	ctx.fillRect(400,400,600,100);
 	
 	ctx.font='bold 130pt Times New Roman';
-	ctx.strokeStyle = "#black";
 	ctx.fillText('PolitiQuest',700,100);
 	ctx.strokeText('PolitiQuest',700,100);
 	ctx.font='bold 60pt Times New Roman';
@@ -33,7 +36,7 @@ function init()
 };
 function update()
 {
-	playButton.addEventListener("mouseover",function(){alert('it works!');});
+	ctx.addEventListener("mouseover",function(){alert('it works!');});
 	update();
 };
 window.onload=init;
