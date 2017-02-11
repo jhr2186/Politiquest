@@ -1,5 +1,11 @@
+'use strict';
 //all the questions for the trivia
-var questions[];
-var easy[];
-var moderate[];
-var hard[];
+
+var app = app || {};
+
+app.questions = {
+    var questions[];
+    var easy[];
+    var moderate[];
+    var hard[];
+};
