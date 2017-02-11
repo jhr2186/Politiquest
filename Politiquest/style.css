@@ -1,4 +1,16 @@
-#credits p{
+body{
+    background-image: url("background.png");
+}
+
+#credits{
     text-align: center;
     margin: auto;
+    margin-top: 25px;
+}
+
+#credits p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 120%;
+    color: white;
 }
