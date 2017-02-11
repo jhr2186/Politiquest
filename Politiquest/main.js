@@ -18,13 +18,17 @@ function init()
     grd.addColorStop(1, '#024E9C');  
 	
     ctx.fillStyle = grd;
-	playButton = ctx.fillRect(400,100,600,100);
-	ctx.fillRect(400,350,600,100);
+	playButton = ctx.fillRect(400,250,600,100);
+	ctx.fillRect(400,400,600,100);
 	
+	ctx.font='bold 130pt Times New Roman';
+	ctx.strokeStyle = "#black";
+	ctx.fillText('PolitiQuest',700,100);
+	ctx.strokeText('PolitiQuest',700,100);
 	ctx.font='bold 60pt Times New Roman';
     ctx.fillStyle = 'black';
-	ctx.fillText('Play',700,150);
-	ctx.fillText('Instructions',700,400);
+	ctx.fillText('Play',700,300);
+	ctx.fillText('Instructions',700,450);
 	update();
 };
 function update()
