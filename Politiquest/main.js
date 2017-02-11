@@ -1,7 +1,11 @@
-	function init()
-	{	
-		var canvas = document.querySelector("#canvas")
-		var ctx = canvas.getContext('2d');
-	};
+function init()
+{	
+	var canvas = document.querySelector("#canvas")
+	var ctx = canvas.getContext('2d');
 	
-	window.onload=init;
+	
+	ctx.fillStyle = 'black';
+	ctx.fillRect(35,50,50,50);
+};
+
+window.onload=init;
