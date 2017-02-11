@@ -1,5 +1,7 @@
 body{
     background-image: url("background.png");
+	background-position:center;
+	background-size:screen.width screen.height;
 }
 
 #credits{
