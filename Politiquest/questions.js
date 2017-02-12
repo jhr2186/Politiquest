@@ -6,12 +6,12 @@ var app = app || {};
 app.questions = {
 	states: [
 		{ name: "Alabama", questions:
-			[
-			{Q: "What is the capital of Alabama", A: "Montgomery", B:"Montpelier", C:"Ankara", D:"New Cambridge", Answer: 1}
-			{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
-			{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
-			{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
-			{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
+		[
+		{Q: "What is the capital of Alabama", A: "Montgomery", B:"Montpelier", C:"Ankara", D:"New Cambridge", Answer: 1}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
 		]},
 		{ name: "Alaska", questions:
 		[
@@ -111,307 +111,307 @@ app.questions = {
 		]},
 		{ name: "Indiana", questions:
 		[
-		{Q: "How many laps in the Indy 500?", A: "50", B:"150", C:"200", D:"500", Answer: }
+		{Q: "How many laps in the Indy 500?", A: "50", B:"150", C:"200", D:"500", Answer: 3}
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		]},
-		Iowa: 
+		{ name: "Iowa", questions: 
+		[
+		{Q: "What river runs along Iowa", A: "Mississippi River", B:"Ohio Rver", C:"Putnam River", D:"Red River", Answer: 1}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		]},
+		{ name: "Kansas", questions: 
+		[
+		{Q: "What was the real name of Obamacare?", A: "", B:"", C:"", D:"The Affordable Care Act", Answer: 4}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		]},
+		{ name: "Kentucky", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Kansas:
+		]},
+		{ name: "Louisiana", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Kentucky:
+		]},
+		{ name: "Maine", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Louisiana:
+		]},
+		{ name: "Maryland", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Maine:
+		]},
+		{ name: "Massachusets", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Maryland:
+		]},
+		{ name: "Michigan", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Massachusets:
+		]},
+		{ name: "Minnesota", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Michigan:
+		]},
+		{ name: "Mississippi", questions: 
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Minnesota:
+		]},
+		{ name: "Missouri", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Mississippi: 
+		]},
+		{ name: "Montana", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Missouri:
+		]},
+		{ name: "Nebraska", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Montana:
+		]},
+		{ name: "Nevada", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Nebraska:
+		]},
+		{ name: "New Hampshire", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Nevada:
+		]},
+		{ name: "New Jersey", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		New Hampshire:
+		]},
+		{ name: "New Mexico", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		New Jersey:
+		]},
+		{ name: "New York", questions:
+		[
+		{Q: "How many presidents were born in New York state?", A: "3", B:"4", C:"5", D:"6", 2}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		]},
+		{ name: "North Carolina", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		New Mexico:
+		]},
+		{ name: "North Dakota", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		New York:
-		[
-		{Q: "How many presidents were born in New York state?", A: "3", B:"4", C:"5", D:"6", Answer: B:"4"}
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		North Carolina:
+		]},
+		{ name: "Ohio", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		North Dakota:
+		]},
+		{ name: "Oklahoma", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Ohio: 
+		]},
+		{ name: "Oregon", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Oklahoma:
+		]},
+		{ name: "Pennsylvania", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Oregon:
+		]},
+		{ name: "Rhode Island", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Pennsylvania:
+		]},
+		{ name: "South Carolina", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Rhode Island:
+		]},
+		{ name: "South Dakota", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		South Carolina:
+		]},
+		{ name: "Tennessee", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		South Dakota:
+		]},
+		{ name: "Texas", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Tennessee:
+		]},
+		{ name: "Utah", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Texas:
+		]},
+		{ name: "Vermont", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Utah:
+		]},
+		{ name: "Virginia", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Vermont:
+		]},
+		{ name: "Washington", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Virginia:
+		]},
+		{ name: "West Virginia", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Washington:
+		]},
+		{ name: "Wisconsin", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		West Virginia:
+		]},
+		{ name: "Wyoming", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Wisconsin:
+		]},
+		{ name: "District of Columbia", questions:
 		[
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		Wyoming:
-		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		],
-		DistrictofColumbia:
-		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
-		]
+		]}
 	]
 };
