@@ -23,7 +23,7 @@ app.questions = {
 		]},
 		{ name: "Arizona", questions:
 		[
-		{Q: "How long has Arizona been in a drought for according to the Arizona State Climate Office?", A: "5 years", B:"21 Years", C:"101 Years", D:"1006", Answer: 2},
+		{Q: "How long has Arizona been in a drought, according to the Arizona State Climate Office?", A: "5 years", B:"21 Years", C:"101 Years", D:"1006", Answer: 2},
 		{Q: "What is Allepo", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -55,7 +55,7 @@ app.questions = {
 		]},
 		{ name: "Connecticut", questions:
 		[
-		{Q: "What president was born here?", A: "James K. Polk", B:"Herbert Hoover", C:"Georege W. Bush", D:"John Adams", Answer: 3},
+		{Q: "What president was born in Connecticut?", A: "James K. Polk", B:"Herbert Hoover", C:"Georege W. Bush", D:"John Adams", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -71,7 +71,7 @@ app.questions = {
 		]},
 		{ name: "Florida", questions:
 		[
-		{Q: "Why was the Kennedy Space Center built here?", A: "So rockets don't end up going over populated areas", B:"Healthy tax exemptions", C:"Florida won it in a bid", D:"Eisenhower had a fondness for the state", Answer: 3},
+		{Q: "Why was the Kennedy Space Center built in florida?", A: "So rockets don't end up going over populated areas", B:"Healthy tax exemptions", C:"Florida won it in a bid", D:"Eisenhower had a fondness for the state", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -88,14 +88,14 @@ app.questions = {
 		{ name: "Hawaii", questions:
 		[
 		{Q: "How many main islands make up Hawaii", A: "6", B:"7", C:"8", D:"9", Answer: 3},
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What was the attack Pearl Harbor", A: "A robbery on a harbor made of pearls", B:"Russia bombed Japan", C:"Japanese sneak attack on Pearl Harbor", D:"Chinese invasion of Pacific Islands", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		]},
 		{ name: "Idaho", questions:
 		[
-		{Q: "What does Idaho mean?", A: "The Sun Comes Down the Mountain", B:"Fertile Earth", C:"A declaration of promiscuous behavior", D:"Land of the strong deer", Answer: 1},
+		{Q: "What does Idaho mean?", A: "The Sun Comes Down the Mountain", B:"Fertile Earth", C:"A declaration of promiscuous behavior", D:"Land of the Strong Deer", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -143,7 +143,7 @@ app.questions = {
 		]},
 		{ name: "Louisiana", questions:
 		[
-		{Q: "How much did BP spend on cleaning up oil in the Gulf of Mexico from the 2010 spill?", A: "20 Million", B:"200 Million", C:"14 Billion", D:"25 Billion", Answer: 3}
+		{Q: "How much did BP spend cleaning up oil in the Gulf of Mexico in 2010?", A: "20 Million", B:"200 Million", C:"14 Billion", D:"25 Billion", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -151,7 +151,7 @@ app.questions = {
 		]},
 		{ name: "Maine", questions:
 		[
-		{Q: "Who tried to help settle the dispute between Canada and the US over the northern boundry of Maine?", A: "Abraham Lincoln", B:"The King of the Netherlands", C:"Charels Lindburg", D:"Winston Churchill", Answer: 2},
+		{Q: "Who helped settle the dispute between Canada and the US over the border of Maine?", A: "Abraham Lincoln", B:"The King of the Netherlands", C:"Charels Lindburg", D:"Winston Churchill", Answer: 2},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -199,7 +199,7 @@ app.questions = {
 		]},
 		{ name: "Missouri", questions:
 		[
-		{Q: "What famous botanist was born here?", A: "George Washington Carver", B:"Gregor Mendel", C:"Charels Lindburg", D:"Frederick Douglass", Answer: 1},
+		{Q: "What famous botanist was born in Missouri?", A: "George Washington Carver", B:"Gregor Mendel", C:"Charels Lindburg", D:"Frederick Douglass", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -207,7 +207,7 @@ app.questions = {
 		]},
 		{ name: "Montana", questions:
 		[
-		{Q: "Why does the US have trouble controlling its wild horse poputlation?", A: "We dont eat enough horse meat", B:"Horses dont breed quickly enough", C:"Horses move quickly and flea humans so they are hard to count", D:"It is hard to distinguish between wild and tame horses", Answer: 1},
+		{Q: "Why does the US have trouble controlling its wild horse poputlation?", A: "We dont eat enough horse meat", B:"Horses dont breed quickly enough", C:"Horses move quickly and are hard to count", D:"Wild and tame horses are too similar", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -215,7 +215,7 @@ app.questions = {
 		]},
 		{ name: "Nebraska", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "How does frakking work?", A: "Drilling the using a vaccume", B:"Inject liquid in to push out", C:"Dig a well and pump it", Answer: 2},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -223,7 +223,7 @@ app.questions = {
 		]},
 		{ name: "Nevada", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "How old do you have to be to gamble in Nevada?", A: "16", B:"18", C:"20", D:"21", Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -231,7 +231,7 @@ app.questions = {
 		]},
 		{ name: "New Hampshire", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What is the New Hampshire Primary", A: "A set of slightly off primary painting colors", B:"A set of laws that set the basis for the US constitution", C:"Islands off the coast used by the coast gaurd", D:"The first of the nationwide primary elections", Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -239,7 +239,7 @@ app.questions = {
 		]},
 		{ name: "New Jersey", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What is on the New Jersey Liscense Plate", A: 'A picture of a beach with the words "Liberty and Prosperity"', B:'The words "Liberty and Prosperity"', C:"A picture of a bustling Dock", D:'The words "Garden State"', Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -247,7 +247,7 @@ app.questions = {
 		]},
 		{ name: "New Mexico", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What was NOT prohibition?", A: "The sale of alhohol was illegal", B:"The production of alchohol was illegal", C:"The importation of alchohol was illegal", D:"The consumption of alchohol was made illegal", Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -255,7 +255,7 @@ app.questions = {
 		]},
 		{ name: "New York", questions:
 		[
-		{Q: "How many presidents were born in New York state?", A: "3", B:"4", C:"5", D:"6", 2},
+		{Q: "How many presidents were born in New York state?", A: "3", B:"4", C:"5", D:"6", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -263,7 +263,7 @@ app.questions = {
 		]},                                        
 		{ name: "North Carolina", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "How much horse power did the Wright Brothers plane engine have?", A: "4", B:"6", C:"12", D:"16", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -271,7 +271,7 @@ app.questions = {
 		]},
 		{ name: "North Dakota", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What type of line has become controverial in North Dakota recently", A: "For oil", B:"For Rail", C:"For new Apple Products", D:"For Comicon Entry", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -279,7 +279,7 @@ app.questions = {
 		]},
 		{ name: "Ohio", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What is the HeartBeat bill in Ohio about specificly?", A: "Organ Doners", B:"Brain Dead Patients", C:"Abortions", D:"Fighting Heart Disease", Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -287,7 +287,7 @@ app.questions = {
 		]},
 		{ name: "Oklahoma", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What was the target of the Olkahoma City bombing?", A: "The Feds", B:"A Religion", C:"A Labratory", D:"The Police", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -295,7 +295,7 @@ app.questions = {
 		]},
 		{ name: "Oregon", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "When did Gold prices hit their peak in the last 30 years?", A: "1996", B:"2008", C:"2012", D:"2016", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -303,7 +303,7 @@ app.questions = {
 		]},
 		{ name: "Pennsylvania", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "When was the declaration of indepence voted on?", A: "May 28, 1776", B:"July 2, 1776", C:"July 4, 1776", D:"January 3, 1776", Answer: 2},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -311,7 +311,7 @@ app.questions = {
 		]},
 		{ name: "Rhode Island", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What is the next smallest state to Rhode Island?", A: "Arizona", B:"Nevada", C:"Colorado", D:"Delaware", Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -319,7 +319,7 @@ app.questions = {
 		]},
 		{ name: "South Carolina", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What true about Super Pacs", A: "They can raise unlimited money", B:"They can coordinate with parties", C:"They cannot raise money from unions", D:"Do not have to disclose donors", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -327,7 +327,7 @@ app.questions = {
 		]},
 		{ name: "South Dakota", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What is the least amount of electoral votes a state can have?", A: "1", B:"2", C:"3", D:"4", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -335,7 +335,7 @@ app.questions = {
 		]},
 		{ name: "Tennessee", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: 'What event made Tennessee the "Volunteer state"', A: "The Alamo", B:"The revolutonary war", C:"The Civil war", D:"The War of 1812", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -343,15 +343,15 @@ app.questions = {
 		]},
 		{ name: "Texas", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What is Gerrymandering", A: "Talking nonstop so a vote cant be held", B:"Purposly wasting Govt. money", C:"Interupting a speech", D:"Spliting up the vote areas to ensure your own victory", Answer: 4},
+		{Q: "Who is Chris Kyle?", A: "Religious Leader", B:"Hero Cop", C:"American Sniper", D:"", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		]},
 		{ name: "Utah", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What did Joe Hill die for?", A: "State Rights", B:"Workers Rights", C:"Communism", D:"God", Answer: 2},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -359,7 +359,7 @@ app.questions = {
 		]},
 		{ name: "Vermont", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What did anti-trust laws do to the computer industry?", A: "It prevented internet providers from working together to raise prices", B:"Windows and Intel were split up", C:"Apple was forced into chinese factories", D:"IBM was forced to unbundle software and hardware", Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -367,7 +367,7 @@ app.questions = {
 		]},
 		{ name: "Virginia", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "Why does Virginia hold the nations capital", A: "It was one of the biggest cities", B:"The first courthouse was built here", C:"So the south would not succeed", D:"It would be easy to defend", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -375,7 +375,7 @@ app.questions = {
 		]},
 		{ name: "Washington", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What was the first passenger jet engine?", A: "Airbus A300", B:"Dewoitine D.30", C:"Ford Trimotor", D:"Boeing 707", Answer: D},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -383,15 +383,11 @@ app.questions = {
 		]},
 		{ name: "West Virginia", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "Why is West Virginia a different state?", A: "They succded based off of state law", B:"West Virgina was puchased from the french", C:"Split during civil war", D:"There was a vote heled on immigration", Answer: 3},
 		]},
 		{ name: "Wisconsin", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "Who fought against the us in the Battle of Wisconsin Heights", A: "Confederates", B:"British", C:"Canadians", D:"Native Americans", Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -399,15 +395,15 @@ app.questions = {
 		]},
 		{ name: "Wyoming", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "Who declared Yellowstone a national park?", A: "Franklyn D. Roosevelt", B:"Richard M. Nixon", C:"Ulysses S. Grant", D:"Howard Taft", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		]},
-		{ name: "District of Columbia", questions:
+		{ name: "DOC", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
+		{Q: "What was the Bay of Pigs", A: "Long Strech of Coastal Farms", B:"North Korea bombed Pearl Harbor", C:"Invasion of Normandy", D:"CIA invading Cuba", Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
