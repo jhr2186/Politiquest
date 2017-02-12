@@ -11,7 +11,8 @@ app.main = {
         menu: 0, 
         game: 1,
         instruction: 2,
-        end: 3
+        question: 3,
+        end: 4
     },
     Republican: 0,
     Democrat: 0,
