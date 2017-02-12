@@ -75,7 +75,9 @@ app.main = {
     ],
     currentState: undefined,
     questions: undefined,
+    question: undefined,
     correct: false,
+    answer: undefined,
    
     init: function(){	
         this.canvas = document.querySelector("#canvas")
@@ -224,6 +226,29 @@ app.main = {
                     this.fillText(this.redStates[i], 1275, 160 + (i * 18), '10pt Times New Roman', "black")
                 }
             }
+            
+            //uncomment when all questions are filled
+            //this.fillText(this.question.Q, 700, 100, 'bold 40pt Times New Roman', 'white');
+            
+            if(!this.correct){
+                for(var i = 0; i < 4; i++){
+                    ctx.fillStyle = 'white';
+                    ctx.fillRect(300, 200 + (i*100), 800, 90);
+                }
+                
+                //uncomment when questions are all done
+                /*
+                this.fillText(this.question.A, 700, 245, '30pt Times New Roman', 'black');
+                this.fillText(this.question.B, 700, 345, '30pt Times New Roman', 'black');
+                this.fillText(this.question.C, 700, 445, '30pt Times New Roman', 'black');
+                this.fillText(this.question.D, 700, 545, '30pt Times New Roman', 'black');
+                */
+            }
+            else{
+                ctx.fillStyle = "white";
+                ctx.fillRect(800, 500, 200, 80);
+                this.fillText("Next Round", 900, 40, '30pt Times New Roman', 'black');
+            }
         }
         else if(this.gamestate == this.gamestates.end){
             //end
@@ -243,6 +268,28 @@ app.main = {
         
         this.currentState = randState;
         this.states.splice(num, 1);
+    },
+    
+    getQuestion: function(){
+        var stateName = this.currentState.name;
+        console.log(this.questions);
+        var stateList = this.questions.states;
+        var resultState;
+        
+        for(var i = 0; i < stateList.length; i++){
+            if(stateList[i].name == stateName){
+                resultState = stateList[i];
+                this.questions.states.splice(i, 1);
+                break;
+            }
+        }
+        
+        //pick a question
+        var randNum = getRandom(0, resultState.questions.length);
+        
+        this.answer = resultState.questions[randNum].answer;
+        
+        this.question = resultState.questions[randNum];
     },
 
     mouseDown: function(e)
@@ -265,14 +312,64 @@ app.main = {
 		else if(main.gamestate == main.gamestates.game){
 			if(mouse.x > 750 && mouse.x < 1050 && mouse.y > 500 && mouse.y < 550){
 				main.gamestate = main.gamestates.question;
-                this.correct = false;
+                main.correct = false;
+                main.getQuestion();
 			}
 		}
         else if(main.gamestate == main.gamestates.question){
-            
+            if(!this.correct){
+                if(mouse.x > 300 && mouse.x < 1100){
+                    if(mouse.y > 200 && mouse.y < 290 && this.question.A != "Wrong"){
+                        main.checkAnswer(1);
+                    }
+                    else if(mouse.y > 200 && mouse.y < 290 && this.question.B != "Wrong"){
+                        main.checkAnswer(2);
+                    }
+                    else if(mouse.y > 200 && mouse.y < 290 && this.question.C != "Wrong"){
+                        main.checkAnswer(3);
+                    }
+                    else if(mouse.y > 200 && mouse.y < 290 && this.question.D != "Wrong"){
+                        main.checkAnswer(4);
+                    }
+                } 
+            }
+            else{
+                if(mouse.x > 800 && mouse.x < 1000 && mouse.y > 500 && mouse.y < 580){
+                    this.correct = false;
+                    main.gamestate == main.gamestates.game;
+                }
+            }
         }
         else if(main.gamestate == main.gamestates.end){
             
+        }
+    },
+    
+    checkAnswer: function(number){
+        if(number == this.answer){
+            this.correct = true;
+            if(this.blueTurn){
+                this.Democrat += this.currentState.value;
+            }
+            if(this.redTurn){
+                this.Republican += this.currentState.value;
+            }
+        }
+        else{
+            if(number == 1){
+                 this.question.A = "Wrong";
+            }
+            else if(number == 2){
+                 this.question.B = "Wrong";
+            }
+            else if(number == 3){
+                 this.question.C = "Wrong";
+            }
+            else if(number == 4){
+                 this.question.D = "Wrong";
+            }
+            
+            this.changeTurn();
         }
     },
     
