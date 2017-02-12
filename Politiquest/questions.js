@@ -216,7 +216,7 @@ app.questions = {
 		]},
 		{ name: "Nebraska", questions:
 		[
-            {Q: "How does frakking work?", A: "Drilling then using a vaccuum", B:"Inject liquid in to push out", C:"Dig a well and pump it",D:"When a mommy and daddy love each other..." Answer: 2},
+            {Q: "How does frakking work?", A: "Drilling then using a vaccuum", B:"Inject liquid in to push out", C:"Dig a well and pump it",D:"When a mommy and daddy love each other...", Answer: 2},
             {Q: "What is the capital of Nebraska?", A: "Lincoln", B:"Omaha", C:"Grand Island", D:"Kearney", Answer: 1},
             {Q: "What is the state insect of Nebraska?", A: "Wasp", B:"Horsefly", C:"Honeybee", D:"Moth", Answer: 3},
             {Q: "The largest what is in Nebraska?", A: "Cornfield", B:"Porch Swing", C:"Rubber Tire", D:"Waffle", Answer: 2},
