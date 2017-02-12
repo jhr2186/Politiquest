@@ -375,7 +375,7 @@ app.questions = {
 		]},
 		{ name: "Washington", questions:
 		[
-		{Q: "What was the first passenger jet engine?", A: "Airbus A300", B:"Dewoitine D.30", C:"Ford Trimotor", D:"Boeing 707", Answer: D},
+		{Q: "What was the first passenger jet engine?", A: "Airbus A300", B:"Dewoitine D.30", C:"Ford Trimotor", D:"Boeing 707", Answer: 4},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
