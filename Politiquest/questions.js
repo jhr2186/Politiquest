@@ -11,7 +11,7 @@ app.questions = {
             {Q: "Where was Rosa Parks arrested for sitting in the front of the bus?", A: "Akron", B:"Motgomery", C:"Madison", D:"Florence", Answer: 2},
             {Q: "What were the Selma to Montgomery Marches for", A: "Native Americans", B:"Confederate POWs", C:"Civil Rights", D:"Health", Answer: 3},
             {Q: "What was Bloody Sunday in Alabama?", A: "School Shooting", B:"Soldiers shot 26 unarmed civilians", C:"100 marchers killed by police", D:"Billy Clubs and Tear Gas used on Protesters", Answer: 4},
-            {Q: "What happened when Albert Patterson died", A: "Prompted Clean up of Phenix City", B:"Alabama made healthcare reform", C:"Prohibition Began", D:"Heroin became illegal", Answer: 1}
+            {Q: "What happened when Albert Patterson died?", A: "Prompted Clean up of Phenix City", B:"Alabama made healthcare reform", C:"Prohibition Began", D:"Heroin became illegal", Answer: 1}
 		]},
 		{ name: "Alaska", questions:
 		[
@@ -74,8 +74,8 @@ app.questions = {
             {Q: "Why was the Kennedy Space Center built in florida?", A: "So rockets don't end up going over populated areas", B:"Healthy tax exemptions", C:"Florida won it in a bid", D:"Eisenhower had a fondness for the state", Answer: 1},
             {Q: "What can you be fined for harrassing manatees?", A: "$25,000", B:"$50,000", C:"$70,000", D:"$100,000", Answer: 2},
             {Q: "When was the American Aligator listed as an endangerd species?", A: "1962", B:"1967", C:"1975", D:"1983", Answer: 2},
-            {Q: "Who did Matthew Scheidt pose as?", A: "An American Citizen", B:"His father", C:"A doctor, then a police officer", D:"A nasa scientist", Answer: 3},
-            {Q: "What did Reza Baluchi try do do twice?", A: "Feed an aligator pizza", B:"Buy NASA from the US Govt.", C:"Pose as Shrek in Disneyworld", D:"Run in a bubble from Florida to the Bermuda Triangle", Answer: 4}
+            {Q: "Who did Matthew Scheidt from Florida pose as?", A: "An American Citizen", B:"His father", C:"A doctor, then a police officer", D:"A nasa scientist", Answer: 3},
+            {Q: "What did Reza Baluchi from Florida try do do twice?", A: "Feed an aligator pizza", B:"Buy NASA from the US Govt.", C:"Pose as Shrek in Disneyworld", D:"Run in a bubble from Florida to the Bermuda Triangle", Answer: 4}
 		]},
 		{ name: "Georgia", questions:
 		[
@@ -83,7 +83,7 @@ app.questions = {
             {Q: "What ingredient is no longer used in any Coca Cola product?", A: "Cocaine", B:"Natural Surgar", C:"Coca nut", D:"Fruit", Answer: 1},
             {Q: "Who was the first African American to play in Major League Baseball?", A: "Jessie Owens", B:"Rube Foster", C:"Jackie Robinson", D:"Satchel Paige", Answer: 3},
             {Q: "Who pardoned the Vietnam draft dodgers?", A: "Richard M. Nixon", B:"Jimmy Carter", C:"Gerald Ford", D:"Bill Clinton", Answer: 2},
-            {Q: "How long was the Iranian Hosage Crisis?", A: "Four Months", B:"Six months", C:"A year and a few months", D:"Two years", Answer: 3}
+            {Q: "How long was the Iranian Hostage Crisis?", A: "Four Months", B:"Six months", C:"A year and a few months", D:"Two years", Answer: 3}
 		]},
 		{ name: "Hawaii", questions:
 		[
