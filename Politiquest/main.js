@@ -183,22 +183,22 @@ app.main = {
             //list states that players have won
             if(this.blueStates.length != 0){
                 for(var i = 0; i < this.blueStates.length; i++){
-                    if(i < 24){
-                        this.fillText(this.blueStates[i], 75, 160 + (i * 18), '10pt Times New Roman', "black");
+                    if(i < 20){
+                        this.fillText(this.blueStates[i], 60, 160 + (i * 20), '14pt Times New Roman', "black");
                     }
                     else{
-                        this.fillText(this.blueStates[i], 175, 160 + ((i-24) * 18), '10pt Times New Roman', "black");
+                        this.fillText(this.blueStates[i], 190, 160 + ((i-20) * 20), '14pt Times New Roman', "black");
                     }
                 }
             }
             
             if(this.redStates.length != 0){
                 for(var i = 0; i < this.redStates.length; i++){
-                    if(i < 24){
-                        this.fillText(this.redStates[i], 1225, 160 + (i * 18), '10pt Times New Roman', "black");
+                    if(i < 20){
+                        this.fillText(this.redStates[i], 1210, 160 + (i * 20), '14pt Times New Roman', "black");
                     }
                     else{
-                        this.fillText(this.redStates[i], 1325, 160 + ((i-24) * 18), '10pt Times New Roman', "black");
+                        this.fillText(this.redStates[i], 1340, 160 + ((i-20) * 20), '14pt Times New Roman', "black");
                     }
                 }
             }
@@ -229,22 +229,22 @@ app.main = {
             //list states that players have won
             if(this.blueStates.length != 0){
                 for(var i = 0; i < this.blueStates.length; i++){
-                    if(i < 24){
-                        this.fillText(this.blueStates[i], 75, 160 + (i * 18), '10pt Times New Roman', "black");
+                    if(i < 20){
+                        this.fillText(this.blueStates[i], 60, 160 + (i * 20), '14pt Times New Roman', "black");
                     }
                     else{
-                        this.fillText(this.blueStates[i], 175, 160 + ((i-24) * 18), '10pt Times New Roman', "black");
+                        this.fillText(this.blueStates[i], 190, 160 + ((i-20) * 20), '14pt Times New Roman', "black");
                     }
                 }
             }
             
             if(this.redStates.length != 0){
                 for(var i = 0; i < this.redStates.length; i++){
-                    if(i < 24){
-                        this.fillText(this.redStates[i], 1225, 160 + (i * 18), '10pt Times New Roman', "black");
+                    if(i < 20){
+                        this.fillText(this.redStates[i], 1210, 160 + (i * 20), '14pt Times New Roman', "black");
                     }
                     else{
-                        this.fillText(this.redStates[i], 1325, 160 + ((i-24) * 18), '10pt Times New Roman', "black");
+                        this.fillText(this.redStates[i], 1340, 160 + ((i-20) * 20), '14pt Times New Roman', "black");
                     }
                 }
             }
