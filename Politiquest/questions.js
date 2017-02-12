@@ -107,7 +107,7 @@ app.questions = {
             {Q: "How long did the Chicago fire last?", A: "8 hours", B:"16 hours", C:"2 days", D:"a week", Answer: 3},
             {Q: "What city did Playboy start in?", A: "Newport", B:"Chicago", C:"San Francico", D:"Los Angeles", Answer: 2},
             {Q: "Where was the Barack Obama born?", A: "Chicago", B:"Nevada", C:"Newport", D:"Detroit", Answer: 1},
-            {Q: "What is not a nickname for Chicago", A: "The Windy City", B:"Chi-Town", C:"The Lake City", D:"The City of Big Sholders", Answer: 3},
+            {Q: "What is not a nickname for Chicago", A: "The Windy City", B:"Chi-Town", C:"The Lake City", D:"The City of Big Shoulders", Answer: 3},
 		]},
 		{ name: "Indiana", questions:
 		[
@@ -120,7 +120,7 @@ app.questions = {
 		{ name: "Iowa", questions: 
 		[
             {Q: "What river runs along Iowa", A: "Mississippi River", B:"Ohio Rver", C:"Putnam River", D:"Red River", Answer: 1},
-            {Q: "What is John Wayne famous for playing?", A: "The Paino", B:"Cowboys", C:"Knights", D:"Soldiers", Answer: 2},
+            {Q: "What is John Wayne famous for playing?", A: "The Piano", B:"Cowboys", C:"Knights", D:"Soldiers", Answer: 2},
             {Q: "What president is from Iowa?", A: "Gerald Ford", B:"Herbert Hoover", C:"Jimmy Carter", D:"Howard Taft", Answer: 2},
             {Q: "Who attacked the frontier settlements during the Spirit Lake Massacre?", A: "Cherokee", B:"Shawnee Tribe", C:"Cahto Tribe", D:"Santee Sioux", Answer: 4},
             {Q: "What is the state motto of Iowa?", A: "We shall overcome", B:"Our liberties we prize and our rights we will maintain.", C:"The people rule", D:"In freedom we reign", Answer: 2},
@@ -224,7 +224,7 @@ app.questions = {
 		{ name: "Nevada", questions:
 		[
             {Q: "How old do you have to be to gamble in Nevada?", A: "16", B:"18", C:"20", D:"21", Answer: 4},
-            {Q: "WHere are the real pyramids that Las Vegas mimics?", A: "Cairo", B:"Egypt", C:"Mexico", D:"Nigeria", Answer: 2},
+            {Q: "Where are the real pyramids that Las Vegas mimics?", A: "Cairo", B:"Egypt", C:"Mexico", D:"Nigeria", Answer: 2},
             {Q: "Which US president was born in Nevada?", A: "Lyndon Johnson", B:"Jimmy Carter", C:"Gerald Ford", D:"None of the above", Answer: 4},
             {Q: "Nevada has the richest what?", A: "Gold Mines", B:"Silver deposit", C:"Nightlife experience", D:"All of the above within the USA", Answer: 4},
             {Q: "What is the capital of Nevada?", A: "Carson City", B:"Las Vegas", C:"Reno", D:"Henderson", Answer: 1}
