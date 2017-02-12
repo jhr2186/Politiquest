@@ -6,5 +6,6 @@ var app = app || {};
 
 
 window.onload = function(){
+    app.main.questions = app.questions;
 	app.main.init();
 }
