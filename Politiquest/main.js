@@ -80,6 +80,7 @@ app.main = {
     question: undefined,
     correct: false,
     answer: undefined,
+    wrong: undefined,
    
     init: function(){	
         this.canvas = document.querySelector("#canvas")
@@ -88,6 +89,9 @@ app.main = {
         this.ctx.textBaseline = "middle";
         
         this.gamestate = this.gamestates.menu;
+        
+        this.wrong = document.querySelector("#wrong");
+        this.wrong.volume = 0.25;
         
         this.getRandomState();
 
@@ -444,6 +448,8 @@ app.main = {
             else if(number == 4){
                  this.question.D = "Wrong";
             }
+            
+            this.wrong.play();
             
             this.changeTurn();
         }
