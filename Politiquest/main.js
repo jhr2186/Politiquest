@@ -157,15 +157,26 @@ app.main = {
         else if(this.gamestate == this.gamestates.instruction){
             //instructions
 			ctx.strokeStyle = "#black";
-            ctx.fillStyle = grd;
-            ctx.fillRect(400,450,600,100);
 			
 			ctx.fillStyle = grd2;
 			ctx.fillRect(200,50,1000,350);
+            
+            this.fillText("Welcome to the Presidential Campaign!", 700, 80, '30pt Times New Roman', 'black');
+            this.fillText("First to 270 wins!", 700, 130, '18pt Times New Roman', 'black');
+            this.fillText("Points are scored according to electoral votes", 700, 160, '18pt Times New Roman', 'black');
+            this.fillText("Higher scoring states have harder questions!", 700, 190, '18pt Times New Roman', 'black');
+            this.fillText("Democrats go first, if you get it wrong, the other person gets a chance to answer.", 700, 220, '18pt Times New Roman', 'black');
+            this.fillText("If you get a question right, you answer first next question.", 700, 250, '18pt Times New Roman', 'black');
+            this.fillText("All questions are related to American history, specific to the state you are in.", 700, 280, '18pt Times New Roman', 'black');
+            this.fillText("In gameplay, press 'Get Question' button to move to question stage.", 700, 310, '18pt Times New Roman', 'black');
+            this.fillText("LOOKING UP ANSWERS IS CAUSE FOR IMPEACHMENT", 700, 340, '18pt Times New Roman', 'black');
 			
+            ctx.fillStyle = grd;
+            ctx.fillRect(400,450,600,100);
+            
             ctx.font='bold 60pt Times New Roman';
             ctx.fillStyle = 'black';
-            ctx.fillText('back',700,500);
+            ctx.fillText('Back',700,500);
         }
         else if(this.gamestate == this.gamestates.game){
             ctx.fillStyle = "blue";
