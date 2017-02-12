@@ -15,7 +15,11 @@ app.main = {
         end: 4
     },
     Republican: 0,
+    redStates: [],
     Democrat: 0,
+    blueStates: [],
+    redTurn: false,
+    blueTurn: true,
     states: [
         {name: "Alabama", value: 9},
         {name: "Alaska", value: 3},
@@ -69,7 +73,9 @@ app.main = {
         {name: "Wyoming", value: 3},
         {name: "District of Columbia", value: 3}
     ],
+    currentState: undefined,
     questions: undefined,
+    correct: false,
    
     init: function(){	
         this.canvas = document.querySelector("#canvas")
@@ -78,6 +84,8 @@ app.main = {
         this.ctx.textBaseline = "middle";
         
         this.gamestate = this.gamestates.menu;
+        
+        this.getRandomState();
 
         this.canvas.onmousedown = this.mouseDown;
         
@@ -124,6 +132,7 @@ app.main = {
         grd2.addColorStop(0.1, '#ffffff');
         grd2.addColorStop(0.9, '#ffffff');
         grd2.addColorStop(1, '#024E9C');
+        
         if(this.gamestate == this.gamestates.menu){
              
 
@@ -141,8 +150,7 @@ app.main = {
             ctx.fillText('Instructions',700,450);
 			
         }
-        
-        if(this.gamestate == this.gamestates.instruction){
+        else if(this.gamestate == this.gamestates.instruction){
             //instructions
 			ctx.strokeStyle = "#black";
             ctx.fillStyle = grd;
@@ -155,43 +163,129 @@ app.main = {
             ctx.fillStyle = 'black';
             ctx.fillText('back',700,500);
         }
-        
-        if(this.gamestate == this.gamestates.game){
-            //game
+        else if(this.gamestate == this.gamestates.game){
+            ctx.fillStyle = "blue";
+            ctx.fillRect(0, 0, 250, 600);
+            this.fillText("Democrat", 125, 50, 'bold 30pt Times New Roman', "black");
+            this.fillText(this.Democrat, 125, 125, 'bold 30pt Times New Roman', "black");
+            ctx.fillStyle = "red";
+            ctx.fillRect(1150, 0, 250, 600);
+            this.fillText("Republican", 1275, 50, 'bold 30pt Times New Roman', "black");
+            this.fillText(this.Republican, 1275, 125, 'bold 30pt Times New Roman', "black");
+            ctx.fillStyle = "black";
+            ctx.fillRect(25, 75, 200, 5);
+            ctx.fillRect(1175, 75, 200, 5);
+            
+            //list states that players have won
+            if(this.blueStates.length != 0){
+                for(var i = 0; i < this.blueStates.length; i++){
+                    this.fillText(this.blueStates[i], 125, 160 + (i * 18), '10pt Times New Roman', "black")
+                }
+            }
+            
+            if(this.redStates.length != 0){
+                for(var i = 0; i < this.redStates.length; i++){
+                    this.fillText(this.redStates[i], 1275, 160 + (i * 18), '10pt Times New Roman', "black")
+                }
+            }
+            
+            this.displayMap(ctx);
+            
+            ctx.fillStyle = "white";
+            ctx.fillRect(350, 500, 300, 50);
+            ctx.fillRect(750, 500, 300, 50);
+            this.fillText("Next State: " + this.currentState.name, 500, 525, '20pt Times New Roman', 'black');
+            this.fillText("Get question", 900, 525, '20pt Times New Roman', 'black');
+            
         }
-        
-        if(this.gamestate == this.gamestates.end){
+        else if(this.gamestate == this.gamestates.question){
+            //question page
+            ctx.fillStyle = "blue";
+            ctx.fillRect(0, 0, 250, 600);
+            this.fillText("Democrat", 125, 50, 'bold 30pt Times New Roman', "black");
+            this.fillText(this.Democrat, 125, 125, 'bold 30pt Times New Roman', "black");
+            ctx.fillStyle = "red";
+            ctx.fillRect(1150, 0, 250, 600);
+            this.fillText("Republican", 1275, 50, 'bold 30pt Times New Roman', "black");
+            this.fillText(this.Republican, 1275, 125, 'bold 30pt Times New Roman', "black");
+            ctx.fillStyle = "black";
+            ctx.fillRect(25, 75, 200, 5);
+            ctx.fillRect(1175, 75, 200, 5);
+            
+            //list states that players have won
+            if(this.blueStates.length != 0){
+                for(var i = 0; i < this.blueStates.length; i++){
+                    this.fillText(this.blueStates[i], 125, 160 + (i * 18), '10pt Times New Roman', "black")
+                }
+            }
+            
+            if(this.redStates.length != 0){
+                for(var i = 0; i < this.redStates.length; i++){
+                    this.fillText(this.redStates[i], 1275, 160 + (i * 18), '10pt Times New Roman', "black")
+                }
+            }
+        }
+        else if(this.gamestate == this.gamestates.end){
             //end
         }
         
         ctx.restore();
+    },
+    
+    displayMap: function(ctx){
+        var map = document.querySelector("#map");
+        ctx.drawImage(map, 350, 25, 700, 400);
+    },
+    
+    getRandomState: function(){
+        var num = getRandom(0, this.states.length);
+        var randState = this.states[num];
+        
+        this.currentState = randState;
+        this.states.splice(num, 1);
     },
 
     mouseDown: function(e)
     {
         var main = app.main;
         var mouse = getMouse(e);
-		if(main.gamestate == main.gamestates.menu)
-		{
-			if(mouse.x>400&&mouse.x<1000&&mouse.y>250&&mouse.y<350)
-			{
+		if(main.gamestate == main.gamestates.menu){
+			if(mouse.x>400&&mouse.x<1000&&mouse.y>250&&mouse.y<350){
 				main.gamestate = main.gamestates.game;
-			}
-			else if(mouse.x>400&&mouse.x<1000&&mouse.y>400&&mouse.y<500)
-			{
+            }
+			else if(mouse.x>400&&mouse.x<1000&&mouse.y>400&&mouse.y<500){
 				main.gamestate = main.gamestates.instruction;
 			}
 		}
-		else if(main.gamestate == main.gamestates.instruction)
-		{
-			if(mouse.x>400&&mouse.x<1000&&mouse.y>450&&mouse.y<550)
-			{
+		else if(main.gamestate == main.gamestates.instruction){
+			if(mouse.x>400&&mouse.x<1000&&mouse.y>450&&mouse.y<550){
 				main.gamestate = main.gamestates.menu;
 			}
 		}
-		else if(main.gamestate = main.gamestates.play)
-		{
-			
+		else if(main.gamestate == main.gamestates.game){
+			if(mouse.x > 750 && mouse.x < 1050 && mouse.y > 500 && mouse.y < 550){
+				main.gamestate = main.gamestates.question;
+                this.correct = false;
+			}
 		}
+        else if(main.gamestate == main.gamestates.question){
+            
+        }
+        else if(main.gamestate == main.gamestates.end){
+            
+        }
+    },
+    
+    changeTurn: function(){
+        if(this.blueTurn){
+            //add the key to their boxes
+            this.blueTurn = false;
+            this.redTurn = true;
+        }
+        else if(this.redTurn){
+            //add the key to their boxes
+            this.redTurn = false;
+            this.blueTurn = true;
+        }
     }
 };
