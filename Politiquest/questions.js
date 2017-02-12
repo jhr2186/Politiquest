@@ -8,10 +8,10 @@ app.questions = {
 		{ name: "Alabama", questions:
 		[
 		{Q: "What is the capital of Alabama", A: "Montgomery", B:"Montpelier", C:"Ankara", D:"New Cambridge", Answer: 1}
-		{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
-		{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
-		{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
-		{Q: "", A: "", B:"", C:"", D:"", Answer: : ""}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: ""}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: ""}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: ""}
+		{Q: "", A: "", B:"", C:"", D:"", Answer: ""}
 		]},
 		{ name: "Alaska", questions:
 		[
@@ -127,7 +127,7 @@ app.questions = {
 		]},
 		{ name: "Kansas", questions: 
 		[
-		{Q: "What was the real name of Obamacare?", A: "", B:"", C:"", D:"The Affordable Care Act", Answer: 4}
+		{Q: "What was the real name of Obamacare?", A: "Excecutive order 9066", B:"RomneyCare", C:"Commonwealth Health Insurance Connector Authority", D:"The Affordable Care Act", Answer: 4}
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
@@ -135,7 +135,7 @@ app.questions = {
 		]},
 		{ name: "Kentucky", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "What is the obesity rate among adults in the US?", A: "20%", B:"25%", C:"30%", D:"35%", Answer: 4}
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
@@ -143,7 +143,7 @@ app.questions = {
 		]},
 		{ name: "Louisiana", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "How much did BP spend on cleaning up oil in the Gulf of Mexico from the 2010 spill?", A: "20 Million", B:"200 Million", C:"14 Billion", D:"25 Billion", Answer: 3}
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
@@ -151,7 +151,7 @@ app.questions = {
 		]},
 		{ name: "Maine", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "Who tried to help settle the dispute between Canada and the US over the northern boundry of Maine?", A: "Abraham Lincoln", B:"The King of the Netherlands", C:"Charels Lindburg", D:"Winston Churchill", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
@@ -159,7 +159,7 @@ app.questions = {
 		]},
 		{ name: "Maryland", questions:
 		[
-		{Q: "", A: "", B:"", C:"", D:"", Answer: }
+		{Q: "What will you be fined for using spring-loaded trap door traps for crab fishing?", A: "$0", B:"$500", C:"$1,000", D:"$10,000", Answer: 3}
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
 		{Q: "", A: "", B:"", C:"", D:"", Answer: }
