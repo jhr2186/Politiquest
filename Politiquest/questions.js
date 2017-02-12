@@ -143,7 +143,7 @@ app.questions = {
 		]},
 		{ name: "Louisiana", questions:
 		[
-		{Q: "How much did BP spend on cleaning up oil in the Gulf of Mexico from the 2010 spill?", A: "20 Million", B:"200 Million", C:"14 Billion", D:"25 Billion", Answer: 3}
+		{Q: "How much did BP spend on cleaning up oil in the Gulf of Mexico from the 2010 spill?", A: "20 Million", B:"200 Million", C:"14 Billion", D:"25 Billion", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
@@ -255,7 +255,7 @@ app.questions = {
 		]},
 		{ name: "New York", questions:
 		[
-		{Q: "How many presidents were born in New York state?", A: "3", B:"4", C:"5", D:"6", 2},
+		{Q: "How many presidents were born in New York state?", A: "3", B:"4", C:"5", D:"6", Answer: 3},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
 		{Q: "", A: "", B:"", C:"", D:"", Answer: 1},
