@@ -73,7 +73,7 @@ app.main = {
         {name: "West Virginia", value: 5},
         {name: "Wisconsin", value: 10},
         {name: "Wyoming", value: 3},
-        {name: "DOC", value: 3}
+        {name: "DoC", value: 3}
     ],
     currentState: undefined,
     questions: undefined,

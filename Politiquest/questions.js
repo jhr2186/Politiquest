@@ -123,7 +123,7 @@ app.questions = {
             {Q: "What is John Wayne famous for playing?", A: "The Paino", B:"Cowboys", C:"Knights", D:"Soldiers", Answer: 2},
             {Q: "What president is from Iowa?", A: "Gerald Ford", B:"Herbert Hoover", C:"Jimmy Carter", D:"Howard Taft", Answer: 2},
             {Q: "Who attacked the frontier settlements during the Spirit Lake Massacre?", A: "Cherokee", B:"Shawnee Tribe", C:"Cahto Tribe", D:"Santee Sioux", Answer: 4},
-            {Q: "What is the state motto?", A: "We shall overcome", B:"Our liberties we prize and our rights we will maintain.", C:"The people rule", D:"In freedom we reign", Answer: 2},
+            {Q: "What is the state motto of Iowa?", A: "We shall overcome", B:"Our liberties we prize and our rights we will maintain.", C:"The people rule", D:"In freedom we reign", Answer: 2},
 		]},
 		{ name: "Kansas", questions: 
 		[
@@ -308,7 +308,7 @@ app.questions = {
             {Q: "Where was the Liberty Bell originally made?", A: "Philladelphia", B:"New York", C:"London", D:"Paris", Answer: 3},
             {Q: "When was the Liberty Bell made?", A: "1776", B:"1751", C:"1765", D:"1742", Answer: 2},
             {Q: "Philadelphia, city of _____?", A: "Brotherly Love", B:"Good Neighbors", C:"Roses", D:"Buillies", Answer: 1},
-            {Q: "Who is the athlete who has a statue at the Art Museum Steps in Philadelphia?", A: "Muhammad Ali", B:"Michael Jordan", C:"", D:"Rocky Balboa", Answer: 4},
+            {Q: "Who is the athlete who has a statue at the Art Museum Steps in Philadelphia?", A: "Muhammad Ali", B:"Michael Jordan", C:"Mike Piazza", D:"Rocky Balboa", Answer: 4},
         ]},
 		{ name: "Rhode Island", questions:
 		[
@@ -370,11 +370,11 @@ app.questions = {
 		]},
 		{ name: "Virginia", questions:
 		[
-            {Q: "Why does Virginia hold the nations capital", A: "It was one of the biggest cities", B:"The first courthouse was built here", C:"So the south would not succeed", D:"It would be easy to defend", Answer: 3},
+            {Q: "Why did Virginia hold the nations capital?", A: "It was one of the biggest cities", B:"The first courthouse was built here", C:"So the south would not succeed", D:"It would be easy to defend", Answer: 3},
             {Q: "Who was the first president from Virginia?", A: "Thomas Jefferson", B:"George Washington", C:"John Adams", D:"Herbert Hoover", Answer: 2},
             {Q: "How many presidents were born in Virginia?", A: "3", B:"4", C:"5", D:"6", Answer: 3},
             {Q: "Loving v Virginia in 1967 did what?", A: "Freed slaves in Virginia", B:"Allowed for interracial marriage", C:"Allowed colored people to play in the NBA", D:"Ended lynching of colored people", Answer: 2},
-            {Q: "What is the capital of Virginia?", A: "Virginia Beach", B:"Norfolk", C:"Alexandria", D:"Richmond", Answer: 4},
+            {Q: "What is the capital of Virginia?", A: "Virginia Beach", B:"Norfolk", C:"Alexandria", D:"Richmond", Answer: 4}
 		]},
 		{ name: "Washington", questions:
 		[
@@ -382,7 +382,7 @@ app.questions = {
             {Q: "Washington is the only state to what?", A: "Be named after a president", B:"Have over 10 inches of rainfall in one day", C:"Have two volcanoes within state borders", D:"Border Canada", Answer: 1},
             {Q: "What is the state fruit of Washington?", A: "Orange", B:"Apple", C:"Grape", D:"Starfruit", Answer: 2},
             {Q: "The city of Seattle is known best for what?", A: "Fish", B:"Basketball", C:"Rain", D:"Football", Answer: 3},
-            {Q: "What is the state slogan of Washington?", A: "'The Golden State'", B:"'The Garden State'", C:"'The Capital State'", D:"'The Evergreen State'", Answer: 4},
+            {Q: "What is the state slogan of Washington?", A: "'The Golden State'", B:"'The Garden State'", C:"'The Capital State'", D:"'The Evergreen State'", Answer: 4}
 		]},
 		{ name: "West Virginia", questions:
 		[
@@ -390,7 +390,7 @@ app.questions = {
             {Q: "What was the last election that West Virginia voted democrat?", A: "1992", B:"1996", C:"2000", D:"2008", Answer: 2},
             {Q: "Which is not a city in West Virginia?", A: "Morgantown", B:"Charleston", C:"Huntington", D:"Norfolk", Answer: 4},
             {Q: "What number state was West Virginia?", A: "35th", B:"12th", C:"14th", D:"21st", Answer: 1},
-            {Q: "Which holiday was first observed in West Virginia?", A: "Father's day", B:"Mother's day", C:"Easter", D:"Thanskgiving", Answer: 2},
+            {Q: "Which holiday was first observed in West Virginia?", A: "Father's day", B:"Mother's day", C:"Easter", D:"Thanskgiving", Answer: 2}
 		]},
 		{ name: "Wisconsin", questions:
 		[
@@ -398,7 +398,7 @@ app.questions = {
             {Q: "Why are people from Wisconsin called Cheeseheads?", A: "Chicago White-Sox fans made it as an insult", B:"They all are cheese farmers", C:"Their founder wore cheese as a hat", D:"They are all rich, cheese is slang for money", Answer: 1},
             {Q: "What attracted settlers to Wisconsin in the 1820s?", A: "Safety from the war", B:"Freedom from slavery", C:"High lead prices", D:"Gold", Answer: 3},
             {Q: "How many presidents and vice-presidents were born in Wisconsin?", A: "11", B:"4", C:"8", D:"0", Answer: 4},
-            {Q: "What did the Supreme Court ruling of Democrats v Wisconsin in 1980 do?", A: "Force Republican candidates to resign", B:"Call for a recount in the election", C:"Only allow registered democrats to vote in primaries for Democrats", D:"Nothing, the Democrats lost", Answer: 3},
+            {Q: "What did the Supreme Court ruling of Democrats v Wisconsin in 1980 do?", A: "Force Republican candidates to resign", B:"Call for a recount in the election", C:"Only allow registered democrats to vote in primaries for Democrats", D:"Nothing, the Democrats lost", Answer: 3}
 		]},
 		{ name: "Wyoming", questions:
 		[
@@ -406,15 +406,15 @@ app.questions = {
             {Q: "What is the state mammal of Wyoming?", A: "Rhino", B:"Bison", C:"Human", D:"Gorilla", Answer: 2},
             {Q: "Which state DOES NOT border Wyoming?", A: "Colorado", B:"Utah", C:"Kansas", D:"South Dakota", Answer: 3},
             {Q: "What number state was Wyoming when added to the US", A: "41st", B:"43rd", C:"44th", D:"46th", Answer: 3},
-            {Q: "Which former Vice President was raised in Wyoming?", A: "Joe Biden", B:"Al Gore", C:"Hubert Humphrey", D:"Dick Cheney", Answer: 4},
+            {Q: "Which former Vice President was raised in Wyoming?", A: "Joe Biden", B:"Al Gore", C:"Hubert Humphrey", D:"Dick Cheney", Answer: 4}
 		]},
-		{ name: "DOC", questions:
+		{ name: "DoC", questions:
 		[
             {Q: "What was the Bay of Pigs", A: "Long Strech of Coastal Farms", B:"North Korea bombed Pearl Harbor", C:"Invasion of Normandy", D:"CIA invading Cuba", Answer: 4},
             {Q: "What country does President Trump want to block with a wall?", A: "China", B:"Mexico", C:"North Korea", D:"Canada", Answer: 2},
             {Q: "Which former presidential candidate was under FBI investigation twice?", A: "Bill Clinton", B:"Donald Trump", C:"Hillary Clinton", D:"Ronald Raegan", Answer: 3},
             {Q: "What is the recognized birthday of America?", A: "July 4th, 1776", B:"July 5th, 1776", C:"July 4th, 1767", D:"July 5th, 1767", Answer: 1},
-            {Q: "Who was the 1st president of the United States?", A: "Ben Franklin", B:"Abraham Lincoln", C:"John Q. Adams", D:"George Washington", Answer: 4},
+            {Q: "Who was the 1st president of the United States?", A: "Ben Franklin", B:"Abraham Lincoln", C:"John Q. Adams", D:"George Washington", Answer: 4}
         ]}
     ]
 };
