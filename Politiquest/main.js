@@ -20,6 +20,8 @@ app.main = {
     blueStates: [],
     redTurn: false,
     blueTurn: true,
+    demWin: false,
+    repWin: false,
     states: [
         {name: "Alabama", value: 9},
         {name: "Alaska", value: 3},
@@ -71,11 +73,13 @@ app.main = {
         {name: "West Virginia", value: 5},
         {name: "Wisconsin", value: 10},
         {name: "Wyoming", value: 3},
-        {name: "District of Columbia", value: 3}
+        {name: "DOC", value: 3}
     ],
     currentState: undefined,
     questions: undefined,
+    question: undefined,
     correct: false,
+    answer: undefined,
    
     init: function(){	
         this.canvas = document.querySelector("#canvas")
@@ -153,15 +157,26 @@ app.main = {
         else if(this.gamestate == this.gamestates.instruction){
             //instructions
 			ctx.strokeStyle = "#black";
-            ctx.fillStyle = grd;
-            ctx.fillRect(400,450,600,100);
 			
 			ctx.fillStyle = grd2;
 			ctx.fillRect(200,50,1000,350);
+            
+            this.fillText("Welcome to the Presidential Campaign!", 700, 80, '30pt Times New Roman', 'black');
+            this.fillText("First to 270 wins!", 700, 130, '18pt Times New Roman', 'black');
+            this.fillText("Points are scored according to electoral votes", 700, 160, '18pt Times New Roman', 'black');
+            this.fillText("Higher scoring states have harder questions!", 700, 190, '18pt Times New Roman', 'black');
+            this.fillText("Democrats go first, if you get it wrong, the other person gets a chance to answer.", 700, 220, '18pt Times New Roman', 'black');
+            this.fillText("If you get a question right, you answer first next question.", 700, 250, '18pt Times New Roman', 'black');
+            this.fillText("All questions are related to American history, specific to the state you are in.", 700, 280, '18pt Times New Roman', 'black');
+            this.fillText("In gameplay, press 'Get Question' button to move to question stage.", 700, 310, '18pt Times New Roman', 'black');
+            this.fillText("LOOKING UP ANSWERS IS CAUSE FOR IMPEACHMENT", 700, 340, '18pt Times New Roman', 'black');
 			
+            ctx.fillStyle = grd;
+            ctx.fillRect(400,450,600,100);
+            
             ctx.font='bold 60pt Times New Roman';
             ctx.fillStyle = 'black';
-            ctx.fillText('back',700,500);
+            ctx.fillText('Back',700,500);
         }
         else if(this.gamestate == this.gamestates.game){
             ctx.fillStyle = "blue";
@@ -179,13 +194,23 @@ app.main = {
             //list states that players have won
             if(this.blueStates.length != 0){
                 for(var i = 0; i < this.blueStates.length; i++){
-                    this.fillText(this.blueStates[i], 125, 160 + (i * 18), '10pt Times New Roman', "black")
+                    if(i < 20){
+                        this.fillText(this.blueStates[i], 60, 160 + (i * 20), '14pt Times New Roman', "black");
+                    }
+                    else{
+                        this.fillText(this.blueStates[i], 190, 160 + ((i-20) * 20), '14pt Times New Roman', "black");
+                    }
                 }
             }
             
             if(this.redStates.length != 0){
                 for(var i = 0; i < this.redStates.length; i++){
-                    this.fillText(this.redStates[i], 1275, 160 + (i * 18), '10pt Times New Roman', "black")
+                    if(i < 20){
+                        this.fillText(this.redStates[i], 1210, 160 + (i * 20), '14pt Times New Roman', "black");
+                    }
+                    else{
+                        this.fillText(this.redStates[i], 1340, 160 + ((i-20) * 20), '14pt Times New Roman', "black");
+                    }
                 }
             }
             
@@ -215,18 +240,73 @@ app.main = {
             //list states that players have won
             if(this.blueStates.length != 0){
                 for(var i = 0; i < this.blueStates.length; i++){
-                    this.fillText(this.blueStates[i], 125, 160 + (i * 18), '10pt Times New Roman', "black")
+                    if(i < 20){
+                        this.fillText(this.blueStates[i], 60, 160 + (i * 20), '14pt Times New Roman', "black");
+                    }
+                    else{
+                        this.fillText(this.blueStates[i], 190, 160 + ((i-20) * 20), '14pt Times New Roman', "black");
+                    }
                 }
             }
             
             if(this.redStates.length != 0){
                 for(var i = 0; i < this.redStates.length; i++){
-                    this.fillText(this.redStates[i], 1275, 160 + (i * 18), '10pt Times New Roman', "black")
+                    if(i < 20){
+                        this.fillText(this.redStates[i], 1210, 160 + (i * 20), '14pt Times New Roman', "black");
+                    }
+                    else{
+                        this.fillText(this.redStates[i], 1340, 160 + ((i-20) * 20), '14pt Times New Roman', "black");
+                    }
                 }
+            }
+            
+            if(!this.correct){
+                this.fillText(this.question.Q, 700, 100, '20pt Times New Roman', 'white');
+                
+                grd2 = ctx.createLinearGradient(300, 0, 1100, 0);
+                grd2.addColorStop(0, '#E91D0E');   
+                grd2.addColorStop(0.1, '#ffffff');
+                grd2.addColorStop(0.9, '#ffffff');
+                grd2.addColorStop(1, '#024E9C');
+                
+                for(var i = 0; i < 4; i++){
+                    ctx.fillStyle = grd2;
+                    ctx.fillRect(300, 200 + (i*100), 800, 90);
+                }
+                
+                this.fillText(this.question.A, 700, 245, '20pt Times New Roman', 'black');
+                this.fillText(this.question.B, 700, 345, '20pt Times New Roman', 'black');
+                this.fillText(this.question.C, 700, 445, '20pt Times New Roman', 'black');
+                this.fillText(this.question.D, 700, 545, '20pt Times New Roman', 'black');
+            }
+            else{
+                if(this.blueTurn){
+                    this.fillText("Democrats take " + this.currentState.name, 700, 200, '40pt Times New Roman', 'white');
+                }
+                else if(this.redTurn){
+                    this.fillText("Republicans take " + this.currentState.name, 700, 200, '40pt Times New Roman', 'white');
+                }
+                
+                ctx.fillStyle = "white";
+                ctx.fillRect(600, 420, 200, 80);
+                this.fillText("Next Round", 700, 460, '30pt Times New Roman', 'black');
             }
         }
         else if(this.gamestate == this.gamestates.end){
-            //end
+            this.displayFlags(ctx);
+            
+            if(this.demWin){
+                this.fillText("Democrats have taken the White House!", 700, 200, 'bold 50pt Times New Roman', 'white');
+                this.fillText("Try again in 4 years Republicans!", 700, 300, 'bold 50pt Times New Roman', 'white');
+            }
+            else if(this.repWin){
+                this.fillText("Republicans have taken the White House!", 700, 200, 'bold 50pt Times New Roman', 'white');
+                this.fillText("Try again in 4 years Democrats!", 700, 300, 'bold 50pt Times New Roman', 'white');
+            }
+            
+            ctx.fillStyle = 'white';
+            ctx.fillRect(600, 420, 200, 80);
+            this.fillText("Play Again", 700, 460, '30pt Times New Roman', 'black');
         }
         
         ctx.restore();
@@ -237,12 +317,39 @@ app.main = {
         ctx.drawImage(map, 350, 25, 700, 400);
     },
     
+    displayFlags: function(ctx){
+        var flag = document.querySelector("#flag");
+        ctx.drawImage(flag, 50, 350, 500, 200);
+        ctx.drawImage(flag, 850, 350, 500, 200);
+    },
+    
     getRandomState: function(){
         var num = getRandom(0, this.states.length);
         var randState = this.states[num];
         
         this.currentState = randState;
         this.states.splice(num, 1);
+    },
+    
+    getQuestion: function(){
+        var stateName = this.currentState.name;
+        var stateList = this.questions.states;
+        var resultState;
+        
+        for(var i = 0; i < stateList.length; i++){
+            if(stateList[i].name == stateName){
+                resultState = stateList[i];
+                this.questions.states.splice(i, 1);
+                break;
+            }
+        }
+        
+        //pick a question
+        var randNum = getRandom(0, resultState.questions.length);
+        
+        this.answer = resultState.questions[randNum].Answer;
+        
+        this.question = resultState.questions[randNum];
     },
 
     mouseDown: function(e)
@@ -265,14 +372,80 @@ app.main = {
 		else if(main.gamestate == main.gamestates.game){
 			if(mouse.x > 750 && mouse.x < 1050 && mouse.y > 500 && mouse.y < 550){
 				main.gamestate = main.gamestates.question;
-                this.correct = false;
+                main.correct = false;
+                main.getQuestion();
 			}
 		}
         else if(main.gamestate == main.gamestates.question){
-            
+            if(!main.correct){
+                if(mouse.x > 300 && mouse.x < 1100){
+                    if(mouse.y > 200 && mouse.y < 290 && main.question.A != "Wrong"){
+                        main.checkAnswer(1);
+                    }
+                    else if(mouse.y > 300 && mouse.y < 390 && main.question.B != "Wrong"){
+                        main.checkAnswer(2);
+                    }
+                    else if(mouse.y > 400 && mouse.y < 490 && main.question.C != "Wrong"){
+                        main.checkAnswer(3);
+                    }
+                    else if(mouse.y > 500 && mouse.y < 590 && main.question.D != "Wrong"){
+                        main.checkAnswer(4);
+                    }
+                } 
+            }
+            else{
+                if(mouse.x > 600 && mouse.x < 900 && mouse.y > 420 && mouse.y < 500){
+                    main.correct = false;
+                    main.getRandomState();
+                    main.gamestate = main.gamestates.game;
+                    console.log(main.gamestate);
+                }
+            }
         }
         else if(main.gamestate == main.gamestates.end){
+            if(mouse.x > 600 && mouse.x < 900 && mouse.y > 420 && mouse.y < 500){
+                window.location.reload();
+            }
+        }
+    },
+    
+    checkAnswer: function(number){
+        if(number == this.answer){
+            this.correct = true;
+            if(this.blueTurn){
+                this.Democrat += this.currentState.value;
+                this.blueStates.push(this.currentState.name);
+            }
+            if(this.redTurn){
+                this.Republican += this.currentState.value;
+                this.redStates.push(this.currentState.name);
+            }
             
+            if(this.Democrat >= 270){
+                this.demWin = true;
+                this.gamestate = this.gamestates.end;
+            }
+            
+            if(this.Republican >= 270){
+                this.repWin = true;
+                this.gamestate = this.gamestates.end;
+            }
+        }
+        else{
+            if(number == 1){
+                 this.question.A = "Wrong";
+            }
+            else if(number == 2){
+                 this.question.B = "Wrong";
+            }
+            else if(number == 3){
+                 this.question.C = "Wrong";
+            }
+            else if(number == 4){
+                 this.question.D = "Wrong";
+            }
+            
+            this.changeTurn();
         }
     },
     
