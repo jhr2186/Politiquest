@@ -200,10 +200,10 @@ app.questions = {
 		{ name: "Missouri", questions:
 		[
             {Q: "What famous botanist was born in Missouri?", A: "George Washington Carver", B:"Gregor Mendel", C:"Charels Lindburg", D:"Frederick Douglass", Answer: 1},
-            {Q: "Which direction does the Missouri river flow?", A: "North-West", B:"South-West", C:"North-East", D:"South-East", Answer: 4},
+            {Q: "Which direction does the Missouri river flow to?", A: "North-West", B:"South-West", C:"North-East", D:"South-East", Answer: 4},
             {Q: "What is the capital of Missouri?", A: "St. Louis", B:"Kansas City", C:"Jefferson City", D:"Springfield", Answer: 3},
             {Q: "What is the famous sculpture located in St. Louis", A: "The Washington Monument", B:"The Arch", C:"Stonehedge", D:"The Memorial to the founding fathers", Answer: 2},
-            {Q: "", A: "", B:"", C:"", D:"", Answer: 1}
+            {Q: "What does Missouri mean?", A: "Wooden Canoe People", B:"Standing Rock Folk", C:"River Squatters", D:"Screaming Eagle God", Answer: 1}
 		]},
 		{ name: "Montana", questions:
 		[
