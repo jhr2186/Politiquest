@@ -24,3 +24,12 @@ img{
 audio{
     display: none;
 }
+
+canvas
+{
+    border: 1px solid black;
+    padding: 0;
+    margin: auto;
+    display: block;
+	margin-top: 5em;
+}
