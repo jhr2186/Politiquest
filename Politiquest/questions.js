@@ -329,7 +329,7 @@ app.questions = {
 		{ name: "South Dakota", questions:
 		[
             {Q: "What is the least amount of electoral votes a state can have?", A: "1", B:"2", C:"3", D:"4", Answer: 3},
-            {Q: "What is Mount Rushmore?", A: "The tallest mountain in the US", B:"", C:"", D:"A mountain with the faces of 4 former presidents", Answer: 4},
+            {Q: "What is Mount Rushmore?", A: "The tallest mountain in the US", B:"A 2000 year old dormant volcanoe", C:"A theme park", D:"A mountain with the faces of 4 former presidents", Answer: 4},
             {Q: "Which of the following former presidents is not on Mt. Rushmore", A: "George Washingon", B:"Thomas Jefferson", C:"John Adams", D:"Theodore Roosevelt", Answer: 3},
             {Q: "What is the Dakota Access Pipeline?", A: "An unfinished oil pipeline that would make oil transportation easier", B:"A pipeline unfairly traveling through Native American land", C:"The nickname for South Dakota's subway", D:"The water pipes that connect all of South Dakota", Answer: 1},
             {Q: "What state number was South Dakota?", A: "29th", B:"23rd", C:"47th", D:"40th", Answer: 1},
