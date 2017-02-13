@@ -34,7 +34,7 @@ app.questions = {
             {Q: "What agriculture does Arkansas produce the most of?", A: "Rice, Poultry, Cotton", B:"Potatoes, Sardines, Indigo", C:"Wheat, Salmon, Sunflowers", D:"Barley, Cheese, Pine Trees", Answer: 1},
             {Q: "How many nations owned Arkansas?", A: "1", B:"2", C:"3", D:"4", Answer: 3},
             {Q: "Who were the Little Rock Nine?", A: "Killed Native American Protesters", B:"Black Students trying to go to school", C:"The Initial settlers of Arkansas", D:"Students killed in Vietnam protest", Answer: 2},
-            {Q: "In 1927 how much of the state did the Mississippi river flood in 1927?", A: "1/3", B:"1/9", C:"1/5", D:"3/11", Answer: 3},
+            {Q: "In 1927 how much of the state did the Mississippi river flood?", A: "1/3", B:"1/9", C:"1/5", D:"3/11", Answer: 3},
             {Q: "Which president was Bill Clinton", A: "39th", B:"40th", C:"41th", D:"42th", Answer: 4}
 		]},
 		{ name: "California", questions:
@@ -135,11 +135,11 @@ app.questions = {
 		]},
 		{ name: "Kentucky", questions:
 		[
-		{Q: "What is the obesity rate among adults in the US?", A: "20%", B:"25%", C:"30%", D:"35%", Answer: 4},
-		{Q: "What is Kentuckys nickname?", A: "The Bluegrass State", B:"The Henhouse State", C:"Blue Hen State", D:"Garden State", Answer: 1},
-		{Q: "What is Kentucky Tunas real name?", A: "Salmo Salar", B:"Asian carp", C:"Stillwater Bass", D:"Micropterus Salmoides", Answer: 2},
-		{Q: "What did the Silent Brigade or Night Riders fight in?", A: "Black Patch Tobacco Wars", B:"Black Hawk Wars", C:"War of 1812", D:"Civil War", Answer: 1},
-		{Q: "What were the Black Patch Tobacco Wars?", A: "A battle beween coporations for market share", B:"A battle between a Minopoly and Workers", C:"A fight against Tobacco", D:"Pirates trying to steal tobacco", Answer: 2},
+            {Q: "What is the obesity rate among adults in the US?", A: "20%", B:"25%", C:"30%", D:"35%", Answer: 4},
+            {Q: "What is Kentuckys nickname?", A: "The Bluegrass State", B:"The Henhouse State", C:"Blue Hen State", D:"Garden State", Answer: 1},
+            {Q: "What is Kentucky Tunas real name?", A: "Salmo Salar", B:"Asian carp", C:"Stillwater Bass", D:"Micropterus Salmoides", Answer: 2},
+            {Q: "What did the Silent Brigade or Night Riders fight in?", A: "Black Patch Tobacco Wars", B:"Black Hawk Wars", C:"War of 1812", D:"Civil War", Answer: 1},
+            {Q: "What were the Black Patch Tobacco Wars?", A: "A battle beween coporations for market share", B:"A battle between a Minopoly and Workers", C:"A fight against Tobacco", D:"Pirates trying to steal tobacco", Answer: 2}
 		]},
 		{ name: "Louisiana", questions:
 		[
@@ -151,7 +151,7 @@ app.questions = {
 		]},
 		{ name: "Maine", questions:
 		[
-            {Q: "Who helped settle the dispute between Canada and the US over the border of Maine?", A: "Abraham Lincoln", B:"The King of the Netherlands", C:"Charels Lindburg", D:"Winston Churchill", Answer: 2},
+            {Q: "Who helped settle the dispute between Canada and the US over the border of Maine?", A: "Abraham Lincoln", B:"The King of the Netherlands", C:"Charels Lindbergh", D:"Winston Churchill", Answer: 2},
             {Q: "What number state was Maine in the US?", A: "14th", B:"17th", C:"20th", D:"23rd", Answer: 4},
             {Q: "Maine joined the Union in 1820 as a counterbalance to what slave state?", A: "Missouri", B:"Louisiana", C:"Arkansas", D:"Texas", Answer: 1},
             {Q: "95% of the US's supply of what fruit comes from Maine?", A: "Strawberries", B:"Blackberries", C:"Blueberries", D:"Cherries", Answer: 3},
@@ -346,7 +346,7 @@ app.questions = {
 		[
             {Q: "What is Gerrymandering", A: "Talking nonstop so a vote cant be held", B:"Purposly wasting Govt. money", C:"Interupting a speech", D:"Spliting up the vote areas to ensure your own victory", Answer: 4},
             {Q: "Who is Chris Kyle?", A: "Religious Leader", B:"Hero Cop", C:"American Sniper", D:"A terrorist", Answer: 3},
-            {Q: "What was the alamo?", A: "A Mexican assault that killed many Texans", B:"A temple in Mexico where many died", C:"A Mexican city that was burned to the ground by Texans", D:"The old capital city of Texas", Answer: 1},
+            {Q: "What was the Alamo?", A: "A Mexican assault that killed many Texans", B:"A temple in Mexico where many died", C:"A Mexican city that was burned to the ground by Texans", D:"The old capital city of Texas", Answer: 1},
             {Q: "What is the state sport of Texas?", A: "Bull Riding", B:"Football", C:"Baseball", D:"Rodeo", Answer: 2},
             {Q: "How big is the King Ranch in Texas?", A: "Bigger than Yellowstone", B:"Bigger than Japan", C:"Bigger than New Jersey", D:"Bigger than Rhode Island", Answer: 4},
             {Q: "What was the result of Rowe v Wade?", A: "Abortions are banned in Texas", B:"Laws that ban abortions are ruled unconstitutional", C:"ABortions are only okay if they will save the mother from harm", D:"Nothing changed", Answer: 2},
@@ -370,7 +370,7 @@ app.questions = {
 		]},
 		{ name: "Virginia", questions:
 		[
-            {Q: "Why did Virginia hold the nations capital?", A: "It was one of the biggest cities", B:"The first courthouse was built here", C:"So the south would not succeed", D:"It would be easy to defend", Answer: 3},
+            {Q: "Why did Virginia hold the nations capital?", A: "It was one of the biggest cities", B:"The first courthouse was built here", C:"So the south would not secede", D:"It would be easy to defend", Answer: 3},
             {Q: "Who was the first president from Virginia?", A: "Thomas Jefferson", B:"George Washington", C:"John Adams", D:"Herbert Hoover", Answer: 2},
             {Q: "How many presidents were born in Virginia?", A: "3", B:"4", C:"5", D:"6", Answer: 3},
             {Q: "Loving v Virginia in 1967 did what?", A: "Freed slaves in Virginia", B:"Allowed for interracial marriage", C:"Allowed colored people to play in the NBA", D:"Ended lynching of colored people", Answer: 2},
