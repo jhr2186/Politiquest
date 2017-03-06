@@ -23,7 +23,7 @@ app.questions = {
 		]},
 		{ name: "Arizona", questions:
 		[
-            {Q: "Where was AriZona Beverage Company founeded", A: "Arizona", B:"New York", C:"New Mexico", D:"Canada", Answer: 2},
+            {Q: "Where was AriZona Beverage Company founded", A: "Arizona", B:"New York", C:"New Mexico", D:"Canada", Answer: 2},
             {Q: "How long has Arizona been in a drought, according to the Arizona State Climate Office?", A: "5 years", B:"21 Years", C:"101 Years", D:"1006", Answer: 2},
             {Q: "What was Giffords doing during the Arizona Shooting?", A: 'A photo-op with "regular citizens"', B:"Calling the police", C:'"Congress on Your Corner" event', D:"Giving a speech", Answer: 3},
             {Q: "What did they do for the first woman to die in the Iraq invasion?", A: "Name a day for her", B:"Hold a funeral procession across town", C:"Name a mountain after her", D:"Name a student grant after her", Answer: 3},
@@ -74,7 +74,7 @@ app.questions = {
             {Q: "Why was the Kennedy Space Center built in florida?", A: "So rockets don't end up going over populated areas", B:"Healthy tax exemptions", C:"Florida won it in a bid", D:"Eisenhower had a fondness for the state", Answer: 1},
             {Q: "What can you be fined for harrassing manatees?", A: "$25,000", B:"$50,000", C:"$70,000", D:"$100,000", Answer: 2},
             {Q: "When was the American Aligator listed as an endangerd species?", A: "1962", B:"1967", C:"1975", D:"1983", Answer: 2},
-            {Q: "Who did Matthew Scheidt from Florida pose as?", A: "An American Citizen", B:"His father", C:"A doctor, then a police officer", D:"A nasa scientist", Answer: 3},
+            {Q: "Who did Matthew Scheidt from Florida pose as?", A: "An American Citizen", B:"His father", C:"A doctor, then a police officer", D:"A NASA scientist", Answer: 3},
             {Q: "What did Reza Baluchi from Florida try do do twice?", A: "Feed an aligator pizza", B:"Buy NASA from the US Govt.", C:"Pose as Shrek in Disneyworld", D:"Run in a bubble from Florida to the Bermuda Triangle", Answer: 4}
 		]},
 		{ name: "Georgia", questions:
@@ -99,7 +99,7 @@ app.questions = {
             {Q: "What was Henry Blummer before he became an outlaw?", A: "Governor", B:"Sherif", C:"Railroad Tycoon", D:"General Store Owner", Answer: 2},
             {Q: "What did they nickname the insider informant for watergate William Mark Felt?", A: "Leaky Damn", B:"Water Shed", C:"Dark Pockets", D:"Deep Thoat", Answer: 4},
             {Q: "What planes did Pappy Boyington become famous for shooting down?", A: "German", B:"Japanese", C:"Chinese", D:"Arab", Answer: 2},
-            {Q: "What animal is hunted during Predator Hunting Contest and Fur Rendevous?", A: "Bear", B:"Mountain Lion", C:"Wolf and Cayote", D:"Falcons", Answer: 3}
+            {Q: "What animal is hunted during Predator Hunting Contest and Fur Rendevous?", A: "Bear", B:"Mountain Lion", C:"Wolf and Coyote", D:"Falcons", Answer: 3}
 		]},
 		{ name: "Illinois", questions:
 		[
@@ -163,7 +163,7 @@ app.questions = {
             {Q: "How many presidents have come from Maryland?", A: "0", B:"1", C:"2", D:"3", Answer: 1},
             {Q: "What state number was Maryland?", A: "1st", B:"3rd", C:"5th", D:"7th", Answer: 4},
             {Q: "In 1844, between Blatimore and Washington, the first what was established?", A: "Continental Railroad", B:"Trade route", C:"Telegraph line", D:"Roadway", Answer: 3},
-            {Q: "In 1895, what famous athelete was born near Blatimore?", A: "Cy Young", B:"Babe Ruth", C:"Hank Aaron", D:"Lou Gherig", Answer: 2}
+            {Q: "In 1895, what famous athlete was born near Baltimore?", A: "Cy Young", B:"Babe Ruth", C:"Hank Aaron", D:"Lou Gehrig", Answer: 2}
 		]},
 		{ name: "Massachusets", questions:
 		[
@@ -202,7 +202,7 @@ app.questions = {
             {Q: "What famous botanist was born in Missouri?", A: "George Washington Carver", B:"Gregor Mendel", C:"Charels Lindburg", D:"Frederick Douglass", Answer: 1},
             {Q: "Which direction does the Missouri river flow to?", A: "North-West", B:"South-West", C:"North-East", D:"South-East", Answer: 4},
             {Q: "What is the capital of Missouri?", A: "St. Louis", B:"Kansas City", C:"Jefferson City", D:"Springfield", Answer: 3},
-            {Q: "What is the famous sculpture located in St. Louis", A: "The Washington Monument", B:"The Arch", C:"Stonehedge", D:"The Memorial to the founding fathers", Answer: 2},
+            {Q: "What is the famous sculpture located in St. Louis", A: "The Washington Monument", B:"The Arch", C:"Stonehenge", D:"The Memorial to the founding fathers", Answer: 2},
             {Q: "What does Missouri mean?", A: "Wooden Canoe People", B:"Standing Rock Folk", C:"River Squatters", D:"Screaming Eagle God", Answer: 1}
 		]},
 		{ name: "Montana", questions:
@@ -283,7 +283,7 @@ app.questions = {
             {Q: "What is the HeartBeat bill in Ohio about specificly?", A: "Organ Doners", B:"Brain Dead Patients", C:"Abortions", D:"Fighting Heart Disease", Answer: 3},
             {Q: "What was the biggest spread news from Ohio in 2016?", A: "Cleveland Cavaliers win first championship", B:"Cleveland Indians blow a 3-1 lead in the World Series", C:"The death of Harambe", D:"None of the above", Answer: 3},
             {Q: "How many presidents were born in Ohio", A: "4", B:"5", C:"6", D:"7", Answer: 4},
-            {Q: "Which Ohio city was the first to use police cars?", A: "Columbus", B:"Cleveland", C:"Cincinatti", D:"Akron", Answer: 4},
+            {Q: "Which Ohio city was the first to use police cars?", A: "Columbus", B:"Cleveland", C:"Cinncinati", D:"Akron", Answer: 4},
             {Q: "What famous African American athlete grew up in Cleveland?", A: "Jackie Robinson", B:"Jessee Owens", C:"Michael Jordon", D:"Barry Sanders", Answer: 2}
 		]},
 		{ name: "Oklahoma", questions:
@@ -344,7 +344,7 @@ app.questions = {
 		]},
 		{ name: "Texas", questions:
 		[
-            {Q: "What is Gerrymandering", A: "Talking nonstop so a vote cant be held", B:"Purposly wasting Govt. money", C:"Interupting a speech", D:"Spliting up the vote areas to ensure your own victory", Answer: 4},
+            {Q: "What is Gerrymandering", A: "Talking non-stop so a vote can't be held", B:"Purposely wasting govt. money", C:"Interrupting a speech", D:"Splitting up the vote areas to ensure your own victory", Answer: 4},
             {Q: "Who is Chris Kyle?", A: "Religious Leader", B:"Hero Cop", C:"American Sniper", D:"A terrorist", Answer: 3},
             {Q: "What was the Alamo?", A: "A Mexican assault that killed many Texans", B:"A temple in Mexico where many died", C:"A Mexican city that was burned to the ground by Texans", D:"The old capital city of Texas", Answer: 1},
             {Q: "What is the state sport of Texas?", A: "Bull Riding", B:"Football", C:"Baseball", D:"Rodeo", Answer: 2},
@@ -402,7 +402,7 @@ app.questions = {
 		]},
 		{ name: "Wyoming", questions:
 		[
-            {Q: "Who declared Yellowstone a national park?", A: "Franklyn D. Roosevelt", B:"Richard M. Nixon", C:"Ulysses S. Grant", D:"Howard Taft", Answer: 1},
+            {Q: "Who declared Yellowstone a national park?", A: "Franklin D. Roosevelt", B:"Richard M. Nixon", C:"Ulysses S. Grant", D:"Howard Taft", Answer: 1},
             {Q: "What is the state mammal of Wyoming?", A: "Rhino", B:"Bison", C:"Human", D:"Gorilla", Answer: 2},
             {Q: "Which state DOES NOT border Wyoming?", A: "Colorado", B:"Utah", C:"Kansas", D:"South Dakota", Answer: 3},
             {Q: "What number state was Wyoming when added to the US", A: "41st", B:"43rd", C:"44th", D:"46th", Answer: 3},

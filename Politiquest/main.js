@@ -267,6 +267,15 @@ app.main = {
             if(!this.correct){
                 this.fillText(this.question.Q, 700, 100, '20pt Times New Roman', 'white');
                 
+                if(this.blueTurn){
+                    this.fillText("Democrats are up", 700, 160, '20pt Times New Roman', 'white');
+                    console.log("blue");
+                }
+                else if(this.redTurn){
+                    this.fillText("Republicans are up", 700, 160, '20pt Times New Roman', 'white');
+                    console.log("red");
+                }
+                
                 grd2 = ctx.createLinearGradient(300, 0, 1100, 0);
                 grd2.addColorStop(0, '#E91D0E');   
                 grd2.addColorStop(0.1, '#ffffff');
