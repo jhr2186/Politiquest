@@ -105,8 +105,8 @@ app.questions = {
 		[
             {Q: "What is a chicago typewriter?", A: "A hot dog", B:"A news Paper", C:"A typewriter", D:"A gun", Answer: 4},
             {Q: "How long did the Chicago fire last?", A: "8 hours", B:"16 hours", C:"2 days", D:"a week", Answer: 3},
-            {Q: "What city did Playboy start in?", A: "Newport", B:"Chicago", C:"San Francico", D:"Los Angeles", Answer: 2},
-            {Q: "Where was the Barack Obama born?", A: "Chicago", B:"Nevada", C:"Newport", D:"Detroit", Answer: 1},
+            {Q: "What city did Playboy start in?", A: "Springfield", B:"Chicago", C:"Las Vegas", D:"Naperville", Answer: 2},
+            {Q: "Where was the Barack Obama born?", A: "Chicago", B:"Springfield", C:"Newport", D:"Detroit", Answer: 1},
             {Q: "What is not a nickname for Chicago", A: "The Windy City", B:"Chi-Town", C:"The Lake City", D:"The City of Big Shoulders", Answer: 3},
 		]},
 		{ name: "Indiana", questions:
@@ -151,7 +151,7 @@ app.questions = {
 		]},
 		{ name: "Maine", questions:
 		[
-            {Q: "Who helped settle the dispute between Canada and the US over the border of Maine?", A: "Abraham Lincoln", B:"The King of the Netherlands", C:"Charels Lindbergh", D:"Winston Churchill", Answer: 2},
+            {Q: "Who helped settle the dispute between Canada and the US over the border of Maine?", A: "Abraham Lincoln", B:"The King of the Netherlands", C:"Charles Lindbergh", D:"Winston Churchill", Answer: 2},
             {Q: "What number state was Maine in the US?", A: "14th", B:"17th", C:"20th", D:"23rd", Answer: 4},
             {Q: "Maine joined the Union in 1820 as a counterbalance to what slave state?", A: "Missouri", B:"Louisiana", C:"Arkansas", D:"Texas", Answer: 1},
             {Q: "95% of the US's supply of what fruit comes from Maine?", A: "Strawberries", B:"Blackberries", C:"Blueberries", D:"Cherries", Answer: 3},
@@ -169,8 +169,8 @@ app.questions = {
 		[
             {Q: "What boat that failed its voyage with the Mayflower?", A: "Nina", B:"WellSprout", C:"Speedwell", D:"DaisyChain", Answer: 3},
             {Q: "What kind of teas were dumped during the Boston Tea Party?", A: "Green teas only", B:"Black teas only", C:"Green and Black teas", D:"Neither Green nor Black teas", Answer: 3},
-            {Q: "What Massachusets representative ran for president in 2012?", A: "Donald Trump", B:"Mitt Romney", C:"Hillary Clinton", D:"Barack Obama", Answer: 2},
-            {Q: "Four presidents called Massachusets their home state. Which of these is it not?", A: "John Adams", B:"John F. Kennedy", C:"George HW Bush", D:"Donald Trump", Answer: 4},
+            {Q: "What Massachusetts representative ran for president in 2012?", A: "Donald Trump", B:"Mitt Romney", C:"Hillary Clinton", D:"Barack Obama", Answer: 2},
+            {Q: "Four presidents called Massachusetts their home state. Which of these did not?", A: "John Adams", B:"John F. Kennedy", C:"George HW Bush", D:"Donald Trump", Answer: 4},
             {Q: "When was marijuana legalized in Massachusets?", A: "2014", B:"2015", C:"2016", D:"It is still illegal in Massachusets", Answer: 3}
 		]},
 		{ name: "Michigan", questions:
@@ -259,7 +259,7 @@ app.questions = {
             {Q: "What year did France give the US the Statue of Liberty?", A: "1776", B:"1796", C:"1886", D:"1872", Answer: 3},
             {Q: "What waterway runs from Lake Erie to the Atlantic Ocean?", A: "The Hudson River", B:"The St. Lawrence River", C:"The Canada Waterway", D:"The Erie Canal", Answer: 4},
             {Q: "What is the 2nd most populated city in New York?", A: "New York City", B:"Buffalo", C:"Albany", D:"Syracuse", Answer: 2},
-            {Q: "Which World Wonder is part of New York State?", A: "The Finger Lakes", B:"The World Trade Center", C:"Niagara Falls", D:"The Appalacian Mountains", Answer: 3},
+            {Q: "Which World Wonder is part of New York State?", A: "The Finger Lakes", B:"The World Trade Center", C:"Niagara Falls", D:"The Appalachian Mountains", Answer: 3},
             {Q: "Stop and Frisk was declared unconstitutional in New York City because of what?", A: "Police discriminated with who they stopped", B:"It was an invasion of privacy", C:"It was sexual harassment", D:"They didn't find criminals any easier than before", Answer: 1}
 		]},                                        
 		{ name: "North Carolina", questions:
