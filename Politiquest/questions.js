@@ -16,7 +16,7 @@ app.questions = {
 		{ name: "Alaska", questions:
 		[
             {Q: "What is the current offical and controversial name of tallest mountain in Alaska?", A: "McKinley", B:"Denali", C:"Denora", D:"Vesuvius", Answer: 2},
-            {Q: "What is the statewide tax rate for alaska?", A: "0%", B:"2%", C:"5%", D:"7%", Answer: 1},
+            {Q: "What is the statewide tax rate for Alaska?", A: "0%", B:"2%", C:"5%", D:"7%", Answer: 1},
             {Q: "Who did the US buy Alaska from?", A: "French", B:"Russia", C:"Natives", D:"Canada", Answer: 2},
             {Q: "When is(are) the most lucrative Alaskan Crab fishing season(s)?", A: "Summer", B:"Spring", C:"Fall and Winter", D:"Spring and Fall", Answer: 3},
             {Q: "What does the Trans-Alaska pipeline move?", A: "sulfer", B:"water", C:"Cold Air", D:"Oil", Answer: 4}
@@ -99,14 +99,14 @@ app.questions = {
 		[
             {Q: "What does Idaho mean?", A: "The Sun Comes Down the Mountain", B:"Fertile Earth", C:"A declaration of promiscuous behavior", D:"Land of the Strong Deer", Answer: 1},
             {Q: "What was Henry Blummer before he became an outlaw?", A: "Governor", B:"Sheriff", C:"Railroad Tycoon", D:"General Store Owner", Answer: 2},
-            {Q: "What did they nickname the insider informant for Watergate William Mark Felt?", A: "Leaky Damn", B:"Water Shed", C:"Dark Pockets", D:"Deep Thoat", Answer: 4},
+            {Q: "What did they nickname the insider informant for Watergate William Mark Felt?", A: "Leaky Damn", B:"Water Shed", C:"Dark Pockets", D:"Deep Throat", Answer: 4},
             {Q: "What planes did Pappy Boyington become famous for shooting down?", A: "German", B:"Japanese", C:"Chinese", D:"Arab", Answer: 2},
             {Q: "What animal is hunted during Predator Hunting Contest and Fur Rendevous?", A: "Bear", B:"Mountain Lion", C:"Wolf and Coyote", D:"Falcons", Answer: 3}
 		]},
 		{ name: "Illinois", questions:
 		[
             {Q: "What is a Chicago Typewriter?", A: "A hot dog", B:"A newspaper", C:"A typewriter", D:"A gun", Answer: 4},
-            {Q: "How long did the Chicago fire last?", A: "8 hours", B:"16 hours", C:"2 days", D:"a week", Answer: 3},
+            {Q: "How long did the Chicago fire last?", A: "8 hours", B:"16 hours", C:"2 days", D:"1 week", Answer: 3},
             {Q: "In which city did Playboy start?", A: "Springfield", B:"Chicago", C:"Las Vegas", D:"Naperville", Answer: 2},
             {Q: "Where was the Barack Obama born?", A: "Chicago", B:"Springfield", C:"Newport", D:"Detroit", Answer: 1},
             {Q: "Which is not a nickname for Chicago?", A: "The Windy City", B:"Chi-Town", C:"The Lake City", D:"The City of Big Shoulders", Answer: 3},
@@ -116,7 +116,7 @@ app.questions = {
 		[
             {Q: "How many laps in the Indy 500?", A: "50", B:"150", C:"200", D:"500", Answer: 3},
             {Q: "How did John Dillinger exape Lake Country Jail?", A: "Carving a pistol from a wooden block", B:"Switching places with his wife durng a conjugal", C:"Slipping through the bars", D:"Opening the unlocked door", Answer: 1},
-            {Q: "Who did the serial killer Herb Baumeister target?", A: "Young Women", B:"Women his age", C:"Gay men his age", D:"Older gay men", Answer: 3},
+            {Q: "Who did the serial killer Herb Baumeister target?", A: "Young women", B:"Women his age", C:"Gay men his age", D:"Older gay men", Answer: 3},
             {Q: "In Hammond what company power plant exploded?", A: "BP", B:"Griffith Energy", C:"Energetix Inc.", D:"Sourthern Energy Co.", Answer: 4},
             {Q: "When was NASCAR founded?", A: "1856", B:"1894", C:"1921", D:"1948", Answer: 4},
 		]},
@@ -124,7 +124,7 @@ app.questions = {
 		[
             {Q: "What river runs along Iowa?", A: "Mississippi River", B:"Ohio River", C:"Putnam River", D:"Red River", Answer: 1},
             {Q: "What is John Wayne famous for playing?", A: "The Piano", B:"Cowboys", C:"Knights", D:"Soldiers", Answer: 2},
-            {Q: "What president is from Iowa?", A: "Gerald Ford", B:"Herbert Hoover", C:"Jimmy Carter", D:"Howard Taft", Answer: 2},
+            {Q: "What President is from Iowa?", A: "Gerald Ford", B:"Herbert Hoover", C:"Jimmy Carter", D:"William Howard Taft", Answer: 2},
             {Q: "Who attacked the frontier settlements during the Spirit Lake Massacre?", A: "Cherokee", B:"Shawnee Tribe", C:"Cahto Tribe", D:"Santee Sioux", Answer: 4},
             {Q: "What is the state motto of Iowa?", A: "We shall overcome", B:"Our liberties we prize and our rights we will maintain.", C:"The people rule", D:"In freedom we reign", Answer: 2},
 		]},
@@ -146,7 +146,7 @@ app.questions = {
 		]},
 		{ name: "Louisiana", questions:
 		[
-            {Q: "How much did BP spend cleaning up oil in the Gulf of Mexico in 2010?", A: "20 Million", B:"200 Million", C:"14 Billion", D:"25 Billion", Answer: 3},
+            {Q: "How much did BP spend cleaning up oil in the Gulf of Mexico in 2010?", A: "$20 Million", B:"$200 Million", C:"$14 Billion", D:"$25 Billion", Answer: 3},
             {Q: "How many people died as a result of Hurricane Katrina?", A: "238", B:"1577", C:"2010", D:"1836", Answer: 4},
             {Q: "What ancient custom is celebrated before 40 days of Lent in New Orleans?", A: "Mardi Gras", B:"Christmas", C:"Thanksgiving", D:"Cinco de Mayo", Answer: 1},
             {Q: "What is the capital of Louisiana?", A: "New Orleans", B:"Baton Rouge", C:"Lafayette", D:"Shreveport", Answer: 2},
@@ -162,7 +162,7 @@ app.questions = {
 		]},
 		{ name: "Maryland", questions:
 		[
-            {Q: "What will you be fined for using spring-loaded trap door traps for crab fishing?", A: "$0", B:"$500", C:"$1,000", D:"$10,000", Answer: 3},
+            {Q: "What is the fine for using spring-loaded trap door traps for crab fishing?", A: "$0", B:"$500", C:"$1,000", D:"$10,000", Answer: 3},
             {Q: "How many Presidents have come from Maryland?", A: "0", B:"1", C:"2", D:"3", Answer: 1},
             {Q: "What state number was Maryland?", A: "1st", B:"3rd", C:"5th", D:"7th", Answer: 4},
             {Q: "In 1844, between Baltimore and Washington, the first ____ was established?", A: "Continental Railroad", B:"Trade route", C:"Telegraph line", D:"Roadway", Answer: 3},
@@ -173,8 +173,8 @@ app.questions = {
             {Q: "Which boat that failed it's voyage with the Mayflower?", A: "Nina", B:"WellSprout", C:"Speedwell", D:"DaisyChain", Answer: 3},
             {Q: "What kind of teas were dumped during the Boston Tea Party?", A: "Green teas only", B:"Black teas only", C:"Green and Black teas", D:"Neither Green nor Black teas", Answer: 3},
             {Q: "What Massachusetts Governor ran for President in 2012?", A: "Donald Trump", B:"Mitt Romney", C:"Hillary Clinton", D:"Barack Obama", Answer: 2},
-            {Q: "Four presidents called Massachusetts their home state. Which of these did not?", A: "John Adams", B:"John F. Kennedy", C:"George HW Bush", D:"Donald Trump", Answer: 4},
-            {Q: "When was marijuana legalized in Massachusets?", A: "2014", B:"2015", C:"2016", D:"It is still illegal in Massachusets", Answer: 3}
+            {Q: "Four Presidents called Massachusetts their home state. Which of these did not?", A: "John Adams", B:"John F. Kennedy", C:"George HW Bush", D:"Donald Trump", Answer: 4},
+            {Q: "When was marijuana legalized in Massachusetts?", A: "2014", B:"2015", C:"2016", D:"It is still illegal in Massachusetts", Answer: 3}
 		]},
 		{ name: "Michigan", questions:
 		[
@@ -183,7 +183,7 @@ app.questions = {
             {Q: "Which president called Michigan his home state?", A: "Herbert Hoover", B:"Teddy Roosevelt", C:"Gerald Ford", D:"Donald Trump", Answer: 3},
             {Q: "Michigan has the longest ____ in the world?", A: "Line at the unemployment office", B:"Freshwater shoreline", C:"Waiting period for adoption", D:"Fishing rod", Answer: 2},
             {Q: "Which is not an official law in Michigan?", A: "It is illegal to kill a dog with a decompression chamber", B:"Cars may not be sold on Sunday", C:"A woman cannot cut her own hair without her husband's permission", D:"You cannot fish after 4pm on Saturdays from March through May", Answer: 4},
-            {Q: "Which of the Great Lakes does not border Michigan?", A: "Lake Erie", B:"Lake Michigan", C:"Lake Huron", D:"Lake Superior", Answer: 1}
+            {Q: "Which of the Great Lakes does not border Michigan?", A: "Lake Ontario", B:"Lake Superior", C:"Lake Huron", D:"Lake Erie", Answer: 1}
 		]},
 		{ name: "Minnesota", questions:
 		[
@@ -204,7 +204,7 @@ app.questions = {
 		{ name: "Missouri", questions:
 		[
             {Q: "What famous botanist was born in Missouri?", A: "George Washington Carver", B:"Gregor Mendel", C:"Charles Lindburg", D:"Frederick Douglass", Answer: 1},
-            {Q: "Which direction does the Missouri river flow?", A: "North-West", B:"South-West", C:"North-East", D:"South-East", Answer: 4},
+            {Q: "Which direction does the Missouri River flow?", A: "North-West", B:"South-West", C:"North-East", D:"South-East", Answer: 4},
             {Q: "What is the capital of Missouri?", A: "St. Louis", B:"Kansas City", C:"Jefferson City", D:"Springfield", Answer: 3},
             {Q: "What is the famous monument located in St. Louis", A: "The Washington Monument", B:"The Gateway Arch", C:"Stonehenge", D:"The Memorial to the founding fathers", Answer: 2},
             {Q: "What does Missouri mean?", A: "Wooden Canoe People", B:"Standing Rock Folk", C:"River Squatters", D:"Screaming Eagle God", Answer: 1}
@@ -219,7 +219,7 @@ app.questions = {
 		]},
 		{ name: "Nebraska", questions:
 		[
-            {Q: "How does fracking work?", A: "Drilling, then using a vaccuum", B:"Inject liquid in to push out", C:"Dig a well and pump it",D:"When a mommy and daddy love each other...", Answer: 2},
+            {Q: "How does fracking work?", A: "Drilling, then using a vaccuum", B:"Inject liquid in to push out material", C:"Dig a well and pump it",D:"When a mommy and daddy love each other...", Answer: 2},
             {Q: "What is the capital of Nebraska?", A: "Lincoln", B:"Omaha", C:"Grand Island", D:"Kearney", Answer: 1},
             {Q: "What is the state insect of Nebraska?", A: "Wasp", B:"Horsefly", C:"Honeybee", D:"Moth", Answer: 3},
             {Q: "The largest ____ is in Nebraska?", A: "Cornfield", B:"Porch Swing", C:"Rubber Tire", D:"Waffle", Answer: 2},
@@ -309,7 +309,7 @@ app.questions = {
 		]},
 		{ name: "Pennsylvania", questions:
 		[
-            {Q: "When was the Declaration of Indepence voted on?", A: "May 28, 1776", B:"July 2, 1776", C:"July 4, 1776", D:"January 3, 1776", Answer: 2},
+            {Q: "When was the Declaration of Independence voted on?", A: "May 28, 1776", B:"July 2, 1776", C:"July 4, 1776", D:"January 3, 1776", Answer: 2},
             {Q: "Where was the Liberty Bell originally made?", A: "Philladelphia", B:"New York", C:"London", D:"Paris", Answer: 3},
             {Q: "When was the Liberty Bell made?", A: "1776", B:"1751", C:"1765", D:"1742", Answer: 2},
             {Q: "Philadelphia, city of _____?", A: "Brotherly Love", B:"Good Neighbors", C:"Roses", D:"Buillies", Answer: 1},
@@ -349,7 +349,7 @@ app.questions = {
 		]},
 		{ name: "Texas", questions:
 		[
-            {Q: "What is Gerrymandering", A: "Talking non-stop so a vote can't be held", B:"Purposely wasting govt. money", C:"Interrupting a speech", D:"Splitting up the vote areas to ensure your own victory", Answer: 4},
+            {Q: "What is Gerrymandering?", A: "Talking non-stop so a vote can't be held", B:"Purposely wasting govt. money", C:"Interrupting a speech", D:"Splitting up the vote areas to ensure your own victory", Answer: 4},
             {Q: "Who is Chris Kyle?", A: "Religious Leader", B:"Hero Cop", C:"American Sniper", D:"A terrorist", Answer: 3},
             {Q: "What was the Alamo?", A: "A Mexican assault that killed many Texans", B:"A temple in Mexico where many died", C:"A Mexican city that was burned to the ground by Texans", D:"The old capital city of Texas", Answer: 1},
             {Q: "What is the state sport of Texas?", A: "Bull Riding", B:"Football", C:"Baseball", D:"Rodeo", Answer: 2},
