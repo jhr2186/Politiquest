@@ -284,7 +284,7 @@ app.questions = {
             {Q: "What was the biggest spread news from Ohio in 2016?", A: "Cleveland Cavaliers win first championship", B:"Cleveland Indians blow a 3-1 lead in the World Series", C:"The death of Harambe", D:"None of the above", Answer: 3},
             {Q: "How many presidents were born in Ohio", A: "4", B:"5", C:"6", D:"7", Answer: 4},
             {Q: "Which Ohio city was the first to use police cars?", A: "Columbus", B:"Cleveland", C:"Cincinatti", D:"Akron", Answer: 4},
-            {Q: "What famous African American athlete grew up in Cleveland?", A: "Jackie Robinson", B:"Jessee Owens", C:"Michael Jordon", D:"Barry Sanders", Answer: 2}
+            {Q: "What famous African American athlete grew up in Cleveland?", A: "Jackie Robinson", B:"Jesse Owens", C:"Michael Jordon", D:"Barry Sanders", Answer: 2}
 		]},
 		{ name: "Oklahoma", questions:
 		[
