@@ -170,7 +170,7 @@ app.main = {
             this.fillText("Points are scored according to electoral votes", 700, 160, '18pt Times New Roman', 'black');
             this.fillText("Higher scoring states have harder questions!", 700, 190, '18pt Times New Roman', 'black');
             this.fillText("Democrats go first, if you get it wrong, the other person gets a chance to answer.", 700, 220, '18pt Times New Roman', 'black');
-            this.fillText("If you get a question right, you answer first next question.", 700, 250, '18pt Times New Roman', 'black');
+            this.fillText("If you get a question right, you answer the next question first.", 700, 250, '18pt Times New Roman', 'black');
             this.fillText("All questions are related to American history, specific to the state you are in.", 700, 280, '18pt Times New Roman', 'black');
             this.fillText("In gameplay, press 'Get Question' button to move to question stage.", 700, 310, '18pt Times New Roman', 'black');
             this.fillText("LOOKING UP ANSWERS IS CAUSE FOR IMPEACHMENT", 700, 340, '18pt Times New Roman', 'black');
@@ -266,6 +266,15 @@ app.main = {
             
             if(!this.correct){
                 this.fillText(this.question.Q, 700, 100, '20pt Times New Roman', 'white');
+                
+                if(this.blueTurn){
+                    this.fillText("Democrats are up", 700, 160, '20pt Times New Roman', 'white');
+                    console.log("blue");
+                }
+                else if(this.redTurn){
+                    this.fillText("Republicans are up", 700, 160, '20pt Times New Roman', 'white');
+                    console.log("red");
+                }
                 
                 grd2 = ctx.createLinearGradient(300, 0, 1100, 0);
                 grd2.addColorStop(0, '#E91D0E');   
